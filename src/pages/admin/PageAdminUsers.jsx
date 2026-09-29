@@ -266,8 +266,8 @@ export default function PageAdminUsers() {
       </div>
 
       <div data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-hidden="true" className={`modal fade ${modalShow === "" ? '' : 'show'}`} style={{ display: modalShow === "" ? "none" : "block" }}>
-        <div className="modal-dialog modal-xl shadow-lg" role="document">
-          <div className="modal-content">
+        <div className="modal-dialog modal-xl" role="document">
+          <div className="modal-content shadow-lg">
 
             <div className="modal-header">
               <h5 className="modal-title">
@@ -364,7 +364,7 @@ export default function PageAdminUsers() {
                       />
                     </div>
 
-                    <div className="mb-2 col-md-2">
+                    <div className="mb-2 col-md-1">
                       <label className="form-label mb-1">Time Start</label>
                       <InputTime
                         id="picker-time-start" name=""
@@ -373,7 +373,7 @@ export default function PageAdminUsers() {
                       />
                     </div>
 
-                    <div className="mb-2 col-md-2">
+                    <div className="mb-2 col-md-1">
                       <label className="form-label mb-1">Time End</label>
                       <InputTime
                         id="picker-time-end" name=""
@@ -382,32 +382,35 @@ export default function PageAdminUsers() {
                       />
                     </div>
 
-                    <div className="mb-2 col-md-2">
+                    <div className="mb-2 col-md-3">
                       <label className="form-label mb-1">User Status</label>
                       <SelectSingle
                         id="form_status"
                         value={form.UserStatus || ''} disable={enableForm ?? !formNotAllowEdit.includes(modalShow)}
                         onChange={(e) => setForm({ ...form, UserStatus: e.target.value })}
                         listitems={[
-                          {value:"", label:"New User"},
-                          {value:"A", label:"Active"},
-                          {value:"D", label:"Disabled"},
-                          {value:"E", label:"Expired"},
-                          {value:"L", label:"Locked"},
-                          {value:"R", label:"Reset Password"}
+                          {value:"", label:"New Profile"},
+                          {value:"A", label:"Profile Active"},
+                          {value:"D", label:"Profile Disabled"},
+                          {value:"L", label:"Profile Locked"},
+                          {value:"E", label:"Profile Expired"},
+                          {value:"P", label:"Password Expired"},
+                          {value:"R", label:"Profile Reseted"}
                         ]}
                       />
                     </div>
 
-                    <div className="mb-2 col-md-2">
+                    <div className="mb-2 col-md-3">
                       <label className="form-label mb-1">Override</label>
                       <SelectSingle
                         id="form_override"
                         value={form.Override || ''} disable={enableForm ?? !formNotAllowEdit.includes(modalShow)}
                         onChange={(e) => setForm({ ...form, Override: e.target.value })}
                         listitems={[
-                          {value:"No", label:"No"},
-                          {value:"Yes", label:"Yes"}
+                          {value:"", label:"Can Not Override"},
+                          {value:"All", label:"Override All"},
+                          {value:"Transction", label:"Override Only Transction"},
+                          {value:"System", label:"Override Only Backend"}
                         ]}
                       />
                     </div>
@@ -550,6 +553,7 @@ export default function PageAdminUsers() {
             </div>
 
             <div className="card-body pt-2">
+
               <table className="table mb-0">
                 <thead>
                   <tr>
@@ -583,6 +587,24 @@ export default function PageAdminUsers() {
                   ))}
                 </tbody>
               </table>
+
+              <div className="mt-4 d-sm-flex align-items-center justify-content-between">
+                <div className="mb-sm-0">Records 60 to 70 of 991</div>
+                <nav>
+                  <ul className="mb-0 pagination justify-content-end">
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-double-left"></i></a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-left"></i></a></li>
+                    <li className="page-item disabled"><a className="page-link py-1 px-3">...</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3">60</a></li>
+                    <li className="page-item active"><a className="page-link py-1 px-3">61</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3">62</a></li>
+                    <li className="page-item disabled"><a className="page-link py-1 px-3">...</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-right"></i></a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-double-right"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+
             </div>
           
           </div>

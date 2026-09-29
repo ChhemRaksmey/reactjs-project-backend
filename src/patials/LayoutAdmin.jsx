@@ -232,36 +232,26 @@ export function LayoutAdminSidebar () {
                 <div id="sidebar-menu">
                     <ul className="metismenu list-unstyled" id="side-menu">
                         
-                        <li className="menu-title" key="t-menu">Menu</li>
+                        <li className="menu-title" key="t-menu">Administrator</li>
 
                         <li>
                             <a className="has-arrow waves-effect pt-2 pb-1" href="#">
-                                <span key="t-dashboards">Dashboards</span>
+                                <span key="t-dashboards">Dashboard</span>
                             </a>
-                            <ul aria-expanded="false" className="sub-menu">
-                                <li><NavLink className="ps-5" to="/admin/modules">System Modules</NavLink></li>
-                                <li><NavLink className="ps-5" to="/admin/applications">Applications</NavLink></li>
-                                <li><NavLink className="ps-5" to="/admin/privileges">Privileges</NavLink></li>
-                                <li><NavLink className="ps-5" to="/admin/users">User Setup</NavLink></li>
+                            <ul aria-expanded="false" className="sub-menu" >
+                                <li><NavLink className="ps-5" to="/">System Administrator</NavLink></li>
                             </ul>
                         </li>
 
                         <li>
                             <a className="has-arrow waves-effect pt-2 pb-1" href="#">
-                                <span key="t-dashboards">Fixed Asset</span>
+                                <span key="t-dashboards">System Administrator</span>
                             </a>
-                            <ul aria-expanded="false" className="sub-menu" >
-                                <li><NavLink className="ps-5" to="/">Accounts of Asset</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Models of Asset</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset LifeTime</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Suppliers / Vendors</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Request</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Booking</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Transfer</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Disposal</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Reverse</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset Recived</NavLink></li>
-                                <li><NavLink className="ps-5" to="/">Asset to Inventory</NavLink></li>
+                            <ul aria-expanded="false" className="sub-menu">
+                                <li><NavLink className="ps-5" key="t-admin-modules" to="/admin/modules">System Modules</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-applications" to="/admin/applications">Applications</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-privileges" to="/admin/privileges">Privileges</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-users" to="/admin/users">User Setup</NavLink></li>
                             </ul>
                         </li>
 

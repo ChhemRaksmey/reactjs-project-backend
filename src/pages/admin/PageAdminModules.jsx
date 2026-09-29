@@ -123,8 +123,8 @@ export default function PageAdminModules() {
       </div>
 
       <div data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-hidden="true" className={`modal fade ${modalShow === "" ? '' : 'show'}`} style={{ display: modalShow === "" ? "none" : "block" }}>
-        <div className="modal-dialog shadow-lg" role="document">
-          <div className="modal-content">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content shadow-lg">
 
             <div className="modal-header">
               <h5 className="modal-title">
@@ -277,6 +277,7 @@ export default function PageAdminModules() {
             </div>
 
             <div className="card-body pt-2">
+              
               <table className="table mb-0">
                 <thead>
                   <tr>
@@ -307,6 +308,24 @@ export default function PageAdminModules() {
                   ))}
                 </tbody>
               </table>
+
+              <div className="mt-4 d-sm-flex align-items-center justify-content-between">
+                <div className="mb-sm-0">Records 60 to 70 of 991</div>
+                <nav>
+                  <ul className="mb-0 pagination justify-content-end">
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-double-left"></i></a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-left"></i></a></li>
+                    <li className="page-item disabled"><a className="page-link py-1 px-3">...</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3">60</a></li>
+                    <li className="page-item active"><a className="page-link py-1 px-3">61</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3">62</a></li>
+                    <li className="page-item disabled"><a className="page-link py-1 px-3">...</a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-right"></i></a></li>
+                    <li className="page-item"><a className="page-link py-1 px-3"><i className="fas fa-angle-double-right"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+              
             </div>
           
           </div>
