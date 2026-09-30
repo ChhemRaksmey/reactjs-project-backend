@@ -5,14 +5,13 @@ import { ToastProvider } from "./context/ToastContext.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 import Login from "./pages/Login.jsx";
+
 import Dashboard from "./pages/Dashboard.jsx";
-import Users from "./pages/Users.jsx";
 
-import PageAdminModules from './pages/admin/PageAdminModules.jsx';
+import PageAdminModules      from './pages/admin/PageAdminModules.jsx';
 import PageAdminApplications from './pages/admin/PageAdminApplications.jsx';
-import PageAdminPrivileges from './pages/admin/PageAdminPrivileges.jsx';
-import PageAdminUsers from './pages/admin/PageAdminUsers.jsx';
-
+import PageAdminPrivileges   from './pages/admin/PageAdminPrivileges.jsx';
+import PageAdminUsers        from './pages/admin/PageAdminUsers.jsx';
 
 import PageAmlRiskLevel         from './pages/aml/PageAmlRiskLevel.jsx';
 import PageAmlRiskCountry       from './pages/aml/PageAmlRiskCountry.jsx';
@@ -51,7 +50,6 @@ export default function App() {
           <Route element={<ProtectedRoute />}>
 
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/users" element={<Users />} />
 
             <Route path="/admin/modules"      element={<PageAdminModules />} />
             <Route path="/admin/applications" element={<PageAdminApplications />} />

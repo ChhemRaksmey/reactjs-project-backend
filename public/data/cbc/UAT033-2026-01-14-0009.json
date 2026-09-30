@@ -1,0 +1,1115 @@
+{
+  "RESPONSE": {
+    "SERVICE": "CBAJSNENQ",
+    "ACTION": "A_SC",
+    "STATUS": "OK",
+    "HEADER": {
+      "MEMBER_ID": "033",
+      "USER_ID": "CKB_XML",
+      "TOT_ITEMS": "1",
+      "ERR_ITEMS": "0"
+    },
+    "MESSAGE": {
+      "ITEM": {
+        "ENQUIRY_REFERENCE": "033-2024-03-05-0002",
+        "RSP_REPORT": {
+          "ENQUIRY_TYPE": "NA",
+          "REPORT_DATE": "05/03/2024",
+          "ENQUIRY_NO": "612574782",
+          "PRODUCT_TYPE": "MTL",
+          "NO_OF_APPLICANTS": "1",
+          "ACCOUNT_TYPE": "S",
+          "ENQUIRY_REFERENCE": "033-2024-03-05-0002",
+          "AMOUNT": "2400.00",
+          "CURRENCY": "USD",
+          "CONSUMER": [
+            {
+              "CAPL": "P",
+              "CID": {
+                "CID1": "N",
+                "CID2": "150736968",
+                "CID3": "04/08/2025"
+              },
+              "PROVIDED": {
+                "PCNAM": {
+                  "PCNMFA": "អ៊ុត",
+                  "PCNM1A": "សម្បូណ៏",
+                  "PCNMFE": "UT",
+                  "PCNM1E": "SAMBO"
+                },
+                "PCDOB": "08/06/1990",
+                "PCPLB": {
+                  "PCPLBC": "KHM",
+                  "PCPLBP": "06",
+                  "PCPLBD": "0601",
+                  "PCPLBCM": "060111"
+                },
+                "PCGND": "F",
+                "PCMAR": "M",
+                "PCNAT": "KHM",
+                "PCEML": ""
+              },
+              "AVAILABLE": {
+                "ACID": {
+                  "ACID1": "N",
+                  "ACID2": "150736968",
+                  "ACID3": "04/08/2025"
+                },
+                "ACNAM": {
+                  "ACNMFA": "អ៊ុត",
+                  "ACNM1A": "សម្បូណ៏",
+                  "ACNMFE": "UI",
+                  "ACNM1E": "SAMBO",
+                  "ACNM7E": "UT SAMBO"
+                },
+                "ACDOB": "08/06/1990",
+                "ACPLB": {
+                  "ACPLBC": "KHM",
+                  "ACPLBP": "06",
+                  "ACPLBD": "0601",
+                  "ACPLBCM": "060111"
+                },
+                "ACGND": "F",
+                "ACMAR": "M",
+                "ACNAT": "KHM",
+                "ACEML": ""
+              },
+              "ADDITIONAL_IDS": [
+                {
+                  "AID_CID1": "N",
+                  "AID_CID2": "150408666",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "12/09/2014"
+                }
+              ],
+              "ADDITIONAL_NAMES": [
+                {
+                  "ANM_CNMFA": "អ៊ុត",
+                  "ANM_CNM1A": "សម្បូណ៏",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "",
+                  "ANM_CNM1E": "",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "24/02/2024"
+                },
+                {
+                  "ANM_CNMFE": "",
+                  "ANM_CNM1E": "",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "UT SAMBO",
+                  "ANM_LOAD_DT": "20/12/2021"
+                },
+                {
+                  "ANM_CNMFA": "អ៊ុត",
+                  "ANM_CNM1A": "សម្បូណ៍",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "UT",
+                  "ANM_CNM1E": "SAMBO",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "25/07/2016"
+                },
+                {
+                  "ANM_CNMFA": "អ៊ុត",
+                  "ANM_CNM1A": "សម្បូណ៏",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "UTH",
+                  "ANM_CNM1E": "SAMBO",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "12/09/2014"
+                }
+              ],
+              "PREV_ENQUIRIES": [
+                {
+                  "PE_DATE": "24/02/2024",
+                  "PE_ENQR": "CHAILEASE ROYAL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "A435D088-A1E1-4405-8DAC-1206BF784266",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2475.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៏",
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "23/02/2024",
+                  "PE_ENQR": "ACTIVE PEOPLE'S MICROFINANCE INSTITUTION PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "APTTL UT SAMBO",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2750.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "30/04/2023",
+                  "PE_ENQR": "LOLC (CAMBODIA) PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "LOLC_040_20230430_2",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "5500000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "18/10/2021",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-000-20211018122440-2",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "25000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "10/08/2021",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-000-20210810152833-7",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "3000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "07/04/2021",
+                  "PE_ENQR": "LOLC (CAMBODIA) PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "LOLC_040_20210407_26",
+                  "PE_PRD": "CMT",
+                  "PE_AMOUNT": "8000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "18/11/2020",
+                  "PE_ENQR": "KB PRASAC BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "FC06509084418112020A",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "6500000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "G",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៏",
+                    "PE_NMFE": "UI",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "10/09/2020",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-102-20200910154545-1213874",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "6500000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "09/06/2020",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-102-20200609162327-1161368",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "2000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "04/12/2019",
+                  "PE_ENQR": "AMRET PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "IC.191204093229000103534349092.STRD.001",
+                  "PE_PRD": "PHL",
+                  "PE_AMOUNT": "5100.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "G",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៏",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "25/02/2019",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-102-20190225151626-833918",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "12000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "UT",
+                    "PE_NM1E": "SAMBO"
+                  }
+                },
+                {
+                  "PE_DATE": "08/05/2018",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SPN-102-20180508154018-619477",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "4000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "12/09/2017",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "SPN-102-201709121132-448967",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "500000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "11/10/2016",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "SPN-102-201610111108-238088",
+                  "PE_PRD": "AGL",
+                  "PE_AMOUNT": "1000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៏",
+                    "PE_NMFE": "uth",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "25/07/2016",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "SPN-102-201607251751-197149",
+                  "PE_PRD": "AFI",
+                  "PE_AMOUNT": "400.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៍",
+                    "PE_NMFE": "Ut",
+                    "PE_NM1E": "Sambo"
+                  }
+                },
+                {
+                  "PE_DATE": "12/09/2014",
+                  "PE_ENQR": "SATHAPANA BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "150408666",
+                  "PE_PRD": "AFI",
+                  "PE_AMOUNT": "400.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "អ៊ុត",
+                    "PE_NM1A": "សម្បូណ៏",
+                    "PE_NMFE": "Uth",
+                    "PE_NM1E": "Sambo"
+                  }
+                }
+              ],
+              "ACC_DETAILS": [
+                {
+                  "ACC_CRDTR": "LOLC (CAMBODIA) PLC",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "30391824068003",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "5500000.00",
+                  "ACC_ISSU_DT": "28/04/2023",
+                  "ACC_PROD_EXP_DT": "12/05/2025",
+                  "ACC_STATUS": "N",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "25",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "85300.00",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "5500000.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "85300.00",
+                  "ACC_LAST_PAY_DT": "12/02/2024",
+                  "ACC_AS_OF_DT": "29/02/2024",
+                  "ACC_NXT_DU_DT": "12/03/2024",
+                  "ACC_SUMMRY": "010111110QQ",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AGL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1023011212930003",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "33000000.00",
+                  "ACC_ISSU_DT": "20/10/2021",
+                  "ACC_PROD_EXP_DT": "20/05/2025",
+                  "ACC_STATUS": "N",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "43",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "201067.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "16000000.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "201067.00",
+                  "ACC_LAST_PAY_DT": "13/02/2024",
+                  "ACC_AS_OF_DT": "15/02/2024",
+                  "ACC_NXT_DU_DT": "13/03/2024",
+                  "ACC_SUMMRY": "000000000000000000000000",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AGL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1023011212250002",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "3000000.00",
+                  "ACC_ISSU_DT": "13/08/2021",
+                  "ACC_PROD_EXP_DT": "",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "13/04/2023",
+                  "ACC_TNR": "20",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "1523250.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "1523250.00",
+                  "ACC_LAST_PAY_DT": "13/04/2023",
+                  "ACC_AS_OF_DT": "15/04/2023",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000000000000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "LOLC (CAMBODIA) PLC",
+                  "ACC_PRD": "CMT",
+                  "ACC_GRP_REF": "258232",
+                  "ACC_ACC_NO": "30281824068002",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "8000000.00",
+                  "ACC_ISSU_DT": "09/04/2021",
+                  "ACC_PROD_EXP_DT": "10/04/2024",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "28/04/2023",
+                  "ACC_TNR": "37",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "7677372.00",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "7677372.00",
+                  "ACC_LAST_PAY_DT": "28/04/2023",
+                  "ACC_AS_OF_DT": "30/04/2023",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C00111111000000000000000",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AGL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1023011202580001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "6500000.00",
+                  "ACC_ISSU_DT": "14/09/2020",
+                  "ACC_PROD_EXP_DT": "14/04/2022",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "20/10/2021",
+                  "ACC_TNR": "19",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "52500.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "3669750.00",
+                  "ACC_LAST_PAY_DT": "20/10/2021",
+                  "ACC_AS_OF_DT": "31/10/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AGL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1023011201670002",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "2000000.00",
+                  "ACC_ISSU_DT": "15/06/2020",
+                  "ACC_PROD_EXP_DT": "13/06/2022",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "20/10/2021",
+                  "ACC_TNR": "23",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "94583.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "763588.00",
+                  "ACC_LAST_PAY_DT": "20/10/2021",
+                  "ACC_AS_OF_DT": "31/10/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000000000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "CDL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1024001190560001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "12000000.00",
+                  "ACC_ISSU_DT": "25/02/2019",
+                  "ACC_PROD_EXP_DT": "14/02/2022",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "02/03/2020",
+                  "ACC_TNR": "35",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "114411.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "8071014.00",
+                  "ACC_LAST_PAY_DT": "02/03/2020",
+                  "ACC_AS_OF_DT": "08/03/2020",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AGL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1023001181310033",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "8000000.00",
+                  "ACC_ISSU_DT": "11/05/2018",
+                  "ACC_PROD_EXP_DT": "13/04/2021",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "13/04/2021",
+                  "ACC_TNR": "35",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "3042904.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "3042904.00",
+                  "ACC_LAST_PAY_DT": "13/04/2021",
+                  "ACC_AS_OF_DT": "30/04/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C00000000000000000000000",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AFI",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1021001172820001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "1500.00",
+                  "ACC_ISSU_DT": "09/10/2017",
+                  "ACC_PROD_EXP_DT": "10/05/2019",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "11/03/2019",
+                  "ACC_TNR": "19",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "7.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "511.00",
+                  "ACC_LAST_PAY_DT": "11/03/2019",
+                  "ACC_AS_OF_DT": "31/03/2019",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000000000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AFI",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1021001172570501",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "3200000.00",
+                  "ACC_ISSU_DT": "14/09/2017",
+                  "ACC_PROD_EXP_DT": "02/05/2019",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "08/05/2018",
+                  "ACC_TNR": "19",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "1632548.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "2237282.00",
+                  "ACC_LAST_PAY_DT": "08/05/2018",
+                  "ACC_AS_OF_DT": "16/05/2018",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AFI",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1021001162870001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "KHR",
+                  "ACC_LIMIT": "2000000.00",
+                  "ACC_ISSU_DT": "13/10/2016",
+                  "ACC_PROD_EXP_DT": "03/07/2017",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "08/06/2017",
+                  "ACC_TNR": "8",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "2046027.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "2059179.00",
+                  "ACC_LAST_PAY_DT": "08/06/2017",
+                  "ACC_AS_OF_DT": "09/06/2017",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "SATHAPANA BANK PLC",
+                  "ACC_PRD": "AFI",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1021001162100001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "3300.00",
+                  "ACC_ISSU_DT": "28/07/2016",
+                  "ACC_PROD_EXP_DT": "02/08/2018",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "03/08/2018",
+                  "ACC_TNR": "24",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "1629.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "1631.00",
+                  "ACC_LAST_PAY_DT": "03/08/2018",
+                  "ACC_AS_OF_DT": "05/08/2018",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C00000000000000000000000",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                }
+              ],
+              "GUARANTEED_ACCOUNTS": [
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "CDL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1024011230200003",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "10000000.00",
+                  "GRT_ISSU_DT": "20/01/2023",
+                  "GRT_PROD_EXP_DT": "20/01/2026",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "11/08/2023",
+                  "GRT_TNR": "36",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "8774606.00",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "8774606.00",
+                  "GRT_LAST_PAY_DT": "11/08/2023",
+                  "GRT_AS_OF_DT": "15/08/2023",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C000000Q",
+                  "GRT_LOAN_TYPE": "L"
+                },
+                {
+                  "GRT_CRDTR": "KB PRASAC BANK PLC.",
+                  "GRT_PRD": "WCL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "06572010002799",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "6500000.00",
+                  "GRT_ISSU_DT": "18/11/2020",
+                  "GRT_PROD_EXP_DT": "17/11/2023",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "17/11/2023",
+                  "GRT_TNR": "36",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "1097640.00",
+                  "GRT_SEC": "TO",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "1097640.00",
+                  "GRT_LAST_PAY_DT": "17/11/2023",
+                  "GRT_AS_OF_DT": "17/11/2023",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000100000001111",
+                  "GRT_LOAN_TYPE": "L"
+                },
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "CDL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1024001192940002",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "USD",
+                  "GRT_LIMIT": "10000.00",
+                  "GRT_ISSU_DT": "21/10/2019",
+                  "GRT_PROD_EXP_DT": "05/05/2023",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "05/05/2023",
+                  "GRT_TNR": "42",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "2528.36",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "2528.36",
+                  "GRT_LAST_PAY_DT": "05/05/2023",
+                  "GRT_AS_OF_DT": "05/05/2023",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000000000000000",
+                  "GRT_LOAN_TYPE": "L"
+                },
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "AGL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1023001191700002",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "9000000.00",
+                  "GRT_ISSU_DT": "19/06/2019",
+                  "GRT_PROD_EXP_DT": "",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "05/04/2022",
+                  "GRT_TNR": "33",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "3042904.00",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "3042904.00",
+                  "GRT_LAST_PAY_DT": "05/04/2022",
+                  "GRT_AS_OF_DT": "11/04/2022",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000000000000000",
+                  "GRT_LOAN_TYPE": "L"
+                },
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "AGL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1023001181150007",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "5100000.00",
+                  "GRT_ISSU_DT": "25/04/2018",
+                  "GRT_PROD_EXP_DT": "07/04/2020",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "19/06/2019",
+                  "GRT_TNR": "23",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "47392.00",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "3165737.00",
+                  "GRT_LAST_PAY_DT": "19/06/2019",
+                  "GRT_AS_OF_DT": "23/06/2019",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000000Q",
+                  "GRT_LOAN_TYPE": ""
+                },
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "CDL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1024001173180002",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "USD",
+                  "GRT_LIMIT": "2500.00",
+                  "GRT_ISSU_DT": "14/11/2017",
+                  "GRT_PROD_EXP_DT": "12/05/2020",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "12/05/2020",
+                  "GRT_TNR": "29",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "380.00",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "380.00",
+                  "GRT_LAST_PAY_DT": "12/05/2020",
+                  "GRT_AS_OF_DT": "31/05/2020",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000000000000000",
+                  "GRT_LOAN_TYPE": "L"
+                },
+                {
+                  "GRT_CRDTR": "SATHAPANA BANK PLC",
+                  "GRT_PRD": "AFI",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "1021001172850002",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "6000000.00",
+                  "GRT_ISSU_DT": "12/10/2017",
+                  "GRT_PROD_EXP_DT": "10/05/2019",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "25/04/2018",
+                  "GRT_TNR": "18",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "28603.00",
+                  "GRT_SEC": "LT",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "2043398.00",
+                  "GRT_LAST_PAY_DT": "25/04/2018",
+                  "GRT_AS_OF_DT": "30/04/2018",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000Q",
+                  "GRT_LOAN_TYPE": ""
+                },
+                {
+                  "GRT_CRDTR": "LOLC (CAMBODIA) PLC",
+                  "GRT_PRD": "CMT",
+                  "GRT_GRP_REF": "258232",
+                  "GRT_ACC_NO": "30281824069002",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "KHR",
+                  "GRT_LIMIT": "8000000.00",
+                  "GRT_ISSU_DT": "09/04/2021",
+                  "GRT_PROD_EXP_DT": "10/04/2024",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "28/04/2023",
+                  "GRT_TNR": "37",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "7674495.00",
+                  "GRT_SEC": "NO",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "7674495.00",
+                  "GRT_LAST_PAY_DT": "28/04/2023",
+                  "GRT_AS_OF_DT": "30/04/2023",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C01111111000000000000000",
+                  "GRT_LOAN_TYPE": "L"
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "CA_LOAD_DT": "05/03/2024",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "12",
+                  "CA_DIST": "1211",
+                  "CA_COMM": "121104",
+                  "CA_VILL": "12110417",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "23/02/2024",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "12",
+                  "CA_DIST": "1211",
+                  "CA_COMM": "121104",
+                  "CA_VILL": "12110400",
+                  "CA_HOUSE": "N/A",
+                  "CA_STREET": "N/A",
+                  "CA_CAD2A": ",",
+                  "CA_CAD2E": "OTHER",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "23/11/2020",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "06",
+                  "CA_DIST": "0601",
+                  "CA_COMM": "060111",
+                  "CA_CAD1E": "LEAV, KRAVA, BARAY, KAMPONG THOM",
+                  "CA_CAD9": "KHM"
+                }
+              ],
+              "EMPLOYERS": [
+                {
+                  "EDLD": "05/03/2024",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "BUSINESS OWNER",
+                  "ELEN": "24",
+                  "ETMS": "250.00",
+                  "ECURR": "USD",
+                  "ENME": "BUSINESS OWNER",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1211",
+                    "EA_COMM": "121104",
+                    "EA_VILL": "12110417",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "24/02/2024",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "SELF-BUSINESS OWNER",
+                  "ELEN": "24",
+                  "ETMS": "700.00",
+                  "ECURR": "USD",
+                  "ENME": "BUSINESS OWNER",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "06",
+                    "EA_DIST": "0601",
+                    "EA_COMM": "060111",
+                    "EA_VILL": "06011105",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "23/02/2024",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "OWNER",
+                  "ELEN": "24",
+                  "ETMS": "300.00",
+                  "ECURR": "USD",
+                  "ENME": "BUSINESS OWNER",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1211",
+                    "EA_COMM": "121104",
+                    "EA_VILL": "12110400",
+                    "EA_HOUSE": "N/A",
+                    "EA_STREET": "N/A",
+                    "EA_AD2A": ",",
+                    "EA_AD2E": "OTHER",
+                    "EA_AD9": "KHM"
+                  }
+                }
+              ],
+              "ADVISORY_SUMMARY_TEXT": {
+                "ADVISORY_TEXT": "NOADV"
+              },
+              "SUMMARY": {
+                "CNT_PE": "16",
+                "CNT_MTDE": "2",
+                "CNT_ACC": "12",
+                "CNT_ACC_NORM": "2",
+                "CNT_ACC_DELQ": "0",
+                "CNT_ACC_CLO": "10",
+                "CNT_ACC_REJ": "0",
+                "CNT_ACC_WRO": "0",
+                "CNT_GACC": "8",
+                "CNT_GACC_NORM": "0",
+                "CNT_GACC_DELQ": "0",
+                "CNT_GACC_ACC_CLO": "8",
+                "CNT_GACC_REJ": "0",
+                "CNT_GACC_WRO": "0",
+                "EISDT": "28/07/2016",
+                "TOT_LIMITS": [
+                  {
+                    "TOT_LIM_CURR": "KHR",
+                    "TOT_LIM": "83200000.00"
+                  },
+                  {
+                    "TOT_LIM_CURR": "USD",
+                    "TOT_LIM": "4800.00"
+                  }
+                ],
+                "TOT_GLIMITS": [
+                  {
+                    "TOT_GLIM_CURR": "KHR",
+                    "TOT_GLIM": "44600000.00"
+                  },
+                  {
+                    "TOT_GLIM_CURR": "USD",
+                    "TOT_GLIM": "12500.00"
+                  }
+                ],
+                "TOT_LIABILITIES": [
+                  {
+                    "TOT_LIAB_CURR": "KHR",
+                    "TOT_LIAB": "21500000.00"
+                  },
+                  {
+                    "TOT_LIAB_CURR": "USD",
+                    "TOT_LIAB": "0.00"
+                  }
+                ],
+                "TOT_GLIABILITIES": [
+                  {
+                    "TOT_GLIAB_CURR": "KHR",
+                    "TOT_GLIAB": "0.00"
+                  },
+                  {
+                    "TOT_GLIAB_CURR": "USD",
+                    "TOT_GLIAB": "0.00"
+                  }
+                ],
+                "TOT_WO_AMT": [
+                  {
+                    "TOT_WO_CURR": "",
+                    "TOT_WO": "0.00"
+                  }
+                ],
+                "TOT_GWO_AMT": [
+                  {
+                    "TOT_GWO_CURR": "",
+                    "TOT_GWO": "0.00"
+                  }
+                ],
+                "TOT_WO_OS_BALANCE": [
+                  {
+                    "TOT_WO_OS_CURR": "",
+                    "TOT_WO_OS_BAL": "0.00"
+                  }
+                ],
+                "TOT_GWO_OS_BALANCE": [
+                  {
+                    "TOT_GWO_OS_CURR": "",
+                    "TOT_GWO_OS_BAL": "0.00"
+                  }
+                ]
+              },
+              "SCORE": {
+                "SC_SCORE": "654",
+                "SC_SCORECARD": "",
+                "SC_SCOREINDEX": "2",
+                "SC_ODDS": "",
+                "SC_BAD": "4.12",
+                "SC_MINIMUM": "100",
+                "SC_MAXIMUM": "1400"
+              }
+            }
+          ],
+          "DISCLAIMER": {
+            "DI_TEXT": "This information has been collated from various sources. It does not represent the opinion of Credit Bureau Cambodia and Credit Bureau Cambodia assumes no responsibility for it. Credit Bureau Cambodia will not be liable (in contract or otherwise whatsoever) with respect to the collation or supply of the information or any use made of it, whether in relation to its accuracy or completeness or any other matter whatsoever. The information is supplied on a confidential basis to you and not for the use or reliance of any other party except any person on whose behalf you have sought the information."
+          }
+        }
+      }
+    }
+  }
+}

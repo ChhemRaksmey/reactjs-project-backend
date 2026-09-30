@@ -1,0 +1,2374 @@
+{
+  "RESPONSE": {
+    "SERVICE": "CBAJSNENQ",
+    "ACTION": "A_SC",
+    "STATUS": "OK",
+    "HEADER": {
+      "MEMBER_ID": "033",
+      "USER_ID": "CKB_XML",
+      "TOT_ITEMS": "1",
+      "ERR_ITEMS": "0"
+    },
+    "MESSAGE": {
+      "ITEM": {
+        "ENQUIRY_REFERENCE": "033-2024-05-08-0006",
+        "RSP_REPORT": {
+          "ENQUIRY_TYPE": "NA",
+          "REPORT_DATE": "08/05/2024",
+          "ENQUIRY_NO": "626959027",
+          "PRODUCT_TYPE": "HIL",
+          "NO_OF_APPLICANTS": "4",
+          "ACCOUNT_TYPE": "J",
+          "ENQUIRY_REFERENCE": "033-2024-05-08-0006",
+          "AMOUNT": "22600.00",
+          "CURRENCY": "USD",
+          "CONSUMER": [
+            {
+              "CAPL": "P",
+              "CID": {
+                "CID1": "N",
+                "CID2": "060732493",
+                "CID3": "26/04/2026"
+              },
+              "PROVIDED": {
+                "PCNAM": {
+                  "PCNMFA": "ប៉ូ",
+                  "PCNM1A": "ផល្លា",
+                  "PCNMFE": "PAU",
+                  "PCNM1E": "PHALLA"
+                },
+                "PCDOB": "13/01/1970",
+                "PCPLB": {
+                  "PCPLBC": "KHM",
+                  "PCPLBP": "25",
+                  "PCPLBD": "2507",
+                  "PCPLBCM": "250706"
+                },
+                "PCGND": "F",
+                "PCMAR": "W",
+                "PCNAT": "KHM",
+                "PCEML": ""
+              },
+              "AVAILABLE": {
+                "ACID": {
+                  "ACID1": "G",
+                  "ACID2": "060732493",
+                  "ACID3": ""
+                },
+                "ACNAM": {
+                  "ACNMFA": "ប៉ូ",
+                  "ACNM1A": "ផល្លា",
+                  "ACNMFE": "PAU",
+                  "ACNM1E": "PHALLA"
+                },
+                "ACDOB": "13/01/1970",
+                "ACPLB": {
+                  "ACPLBC": "KHM",
+                  "ACPLBP": "25",
+                  "ACPLBD": "2507",
+                  "ACPLBCM": "250706"
+                },
+                "ACGND": "F",
+                "ACMAR": "M",
+                "ACNAT": "KHM",
+                "ACEML": ""
+              },
+              "ADDITIONAL_IDS": [
+                {
+                  "AID_CID1": "G",
+                  "AID_CID2": "060732493",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "03/02/2019"
+                },
+                {
+                  "AID_CID1": "B",
+                  "AID_CID2": "4339",
+                  "AID_CID3": "07/03/2005",
+                  "AID_LOADDT": "24/05/2014"
+                }
+              ],
+              "ADDITIONAL_NAMES": [
+                {
+                  "ANM_CNMFA": "ប៉ូ",
+                  "ANM_CNM1A": "ផល្លា",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "PAU",
+                  "ANM_CNM1E": "PHALLA",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "14/12/2017"
+                },
+                {
+                  "ANM_CNMFE": "PO",
+                  "ANM_CNM1E": "PHALLA",
+                  "ANM_CNM2E": "PO PHALLA",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "07/12/2017"
+                },
+                {
+                  "ANM_CNMFA": "ប៉ូ",
+                  "ANM_CNM1A": "ផល្លា",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "PO",
+                  "ANM_CNM1E": "PHALLA",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "24/05/2014"
+                }
+              ],
+              "PREV_ENQUIRIES": [
+                {
+                  "PE_DATE": "19/06/2023",
+                  "PE_ENQR": "CHAILEASE ROYAL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "CRF-23063523",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "3060.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "19/06/2023",
+                  "PE_ENQR": "ACTIVE PEOPLE'S MICROFINANCE INSTITUTION PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "AP-HO 060732493",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "3100.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "19/01/2023",
+                  "PE_ENQR": "ADVANCED BANK OF ASIA LTD",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "190120230925CC2121",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "Pau",
+                    "PE_NM1E": "Phalla"
+                  }
+                },
+                {
+                  "PE_DATE": "24/11/2022",
+                  "PE_ENQR": "CAMBODIA POST BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "024ASL2211240958399",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "14/03/2020",
+                  "PE_ENQR": "CHAILEASE ROYAL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "CRF-20030308",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2340.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "26/02/2020",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "330010434",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "37000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "12/02/2019",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "452",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "23500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "27/08/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_03",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "15000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "30/04/2018",
+                  "PE_ENQR": "AEON SPECIALIZED BANK (CAMBODIA) PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "0282801",
+                  "PE_PRD": "MBL",
+                  "PE_AMOUNT": "368.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "09/03/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_02",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "10500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA-SIV"
+                  }
+                },
+                {
+                  "PE_DATE": "14/12/2017",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_01",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "5000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PAU",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "18/08/2016",
+                  "PE_ENQR": "CMK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "SMCD 664/16/08/18",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "1000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PO",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "31/08/2015",
+                  "PE_ENQR": "CMK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "SMC664$",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "PO",
+                    "PE_NM1E": "PHALLA"
+                  }
+                },
+                {
+                  "PE_DATE": "24/05/2014",
+                  "PE_ENQR": "CMK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "SMC 022549 $",
+                  "PE_PRD": "PLN",
+                  "PE_AMOUNT": "500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ប៉ូ",
+                    "PE_NM1A": "ផល្លា",
+                    "PE_NMFE": "Po",
+                    "PE_NM1E": "Phalla"
+                  }
+                }
+              ],
+              "ACC_DETAILS": [
+                {
+                  "ACC_CRDTR": "CHAILEASE ROYAL FINANCE PLC",
+                  "ACC_PRD": "MTL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "M230603728AA",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "3060.00",
+                  "ACC_ISSU_DT": "21/06/2023",
+                  "ACC_PROD_EXP_DT": "20/05/2026",
+                  "ACC_STATUS": "N",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "35",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "155.00",
+                  "ACC_SEC": "MV",
+                  "ACC_CUB": "2335.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "155.00",
+                  "ACC_LAST_PAY_DT": "20/04/2024",
+                  "ACC_AS_OF_DT": "30/04/2024",
+                  "ACC_NXT_DU_DT": "20/05/2024",
+                  "ACC_SUMMRY": "0100001111Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490103",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "28244.25",
+                  "ACC_ISSU_DT": "17/09/2021",
+                  "ACC_PROD_EXP_DT": "19/03/2029",
+                  "ACC_STATUS": "L",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "498.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "22050.98",
+                  "ACC_ODB": "835.53",
+                  "ACC_LAST_AMT_PD": "180.00",
+                  "ACC_LAST_PAY_DT": "26/04/2024",
+                  "ACC_AS_OF_DT": "30/04/2024",
+                  "ACC_NXT_DU_DT": "17/05/2024",
+                  "ACC_SUMMRY": "221111110100110001011111",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490102",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "27388.48",
+                  "ACC_ISSU_DT": "07/05/2021",
+                  "ACC_PROD_EXP_DT": "05/02/2029",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "17/09/2021",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "28244.78",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "28244.78",
+                  "ACC_LAST_PAY_DT": "17/09/2021",
+                  "ACC_AS_OF_DT": "30/09/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CDDDQ",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    },
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490101",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "35000.00",
+                  "ACC_ISSU_DT": "04/03/2020",
+                  "ACC_PROD_EXP_DT": "03/03/2028",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "07/05/2021",
+                  "ACC_TNR": "96",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "27388.48",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "27388.48",
+                  "ACC_LAST_PAY_DT": "07/05/2021",
+                  "ACC_AS_OF_DT": "31/05/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C1111111110000Q",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1185720019115",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "23500.00",
+                  "ACC_ISSU_DT": "26/02/2019",
+                  "ACC_PROD_EXP_DT": "26/02/2024",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "04/03/2020",
+                  "ACC_TNR": "0",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "19801.92",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "19801.92",
+                  "ACC_LAST_PAY_DT": "04/03/2020",
+                  "ACC_AS_OF_DT": "31/03/2020",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000000000000M",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "HATTHA BANK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1257736182420002",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "15000.00",
+                  "ACC_ISSU_DT": "30/08/2018",
+                  "ACC_PROD_EXP_DT": "13/03/2023",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "27/02/2019",
+                  "ACC_TNR": "54",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "176.82",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "14143.68",
+                  "ACC_LAST_PAY_DT": "27/02/2019",
+                  "ACC_AS_OF_DT": "27/02/2019",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000QQQ",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "HATTHA BANK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1257736180710001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "10500.00",
+                  "ACC_ISSU_DT": "12/03/2018",
+                  "ACC_PROD_EXP_DT": "13/03/2023",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "30/08/2018",
+                  "ACC_TNR": "60",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "128.16",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "9959.55",
+                  "ACC_LAST_PAY_DT": "30/08/2018",
+                  "ACC_AS_OF_DT": "30/08/2018",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "HATTHA BANK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1257736173490001",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "5000.00",
+                  "ACC_ISSU_DT": "15/12/2017",
+                  "ACC_PROD_EXP_DT": "07/12/2020",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "12/03/2018",
+                  "ACC_TNR": "36",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "177.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "4835.81",
+                  "ACC_LAST_PAY_DT": "12/03/2018",
+                  "ACC_AS_OF_DT": "31/03/2018",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C00Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "CMK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "090000664017439",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "100.00",
+                  "ACC_ISSU_DT": "27/10/2017",
+                  "ACC_PROD_EXP_DT": "30/12/2017",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "13/12/2017",
+                  "ACC_TNR": "6",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "18.43",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "18.43",
+                  "ACC_LAST_PAY_DT": "13/12/2017",
+                  "ACC_AS_OF_DT": "30/12/2017",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CMQ",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "CMK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "090000664015519",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "100.00",
+                  "ACC_ISSU_DT": "20/04/2017",
+                  "ACC_PROD_EXP_DT": "20/10/2017",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "22/10/2017",
+                  "ACC_TNR": "6",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "17.43",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "17.48",
+                  "ACC_LAST_PAY_DT": "22/10/2017",
+                  "ACC_AS_OF_DT": "31/10/2017",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C0MMMMM",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "CMK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "090000664013730",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "1000.00",
+                  "ACC_ISSU_DT": "22/08/2016",
+                  "ACC_PROD_EXP_DT": "30/12/2017",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "13/12/2017",
+                  "ACC_TNR": "24",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "55.83",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "55.83",
+                  "ACC_LAST_PAY_DT": "13/12/2017",
+                  "ACC_AS_OF_DT": "30/12/2017",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000MMMMMMMMMMMMM",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "CMK PLC.",
+                  "ACC_PRD": "PEL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "090000664",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "500.00",
+                  "ACC_ISSU_DT": "26/05/2014",
+                  "ACC_PROD_EXP_DT": "",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "28/08/2015",
+                  "ACC_TNR": "24",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "28.29",
+                  "ACC_SEC": "NO",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "28.29",
+                  "ACC_LAST_PAY_DT": "28/08/2015",
+                  "ACC_AS_OF_DT": "01/09/2015",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CM0000M011011M10000M",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "CA_LOAD_DT": "04/07/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "12",
+                  "CA_DIST": "1205",
+                  "CA_COMM": "120501",
+                  "CA_VILL": "12050106",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "19/06/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080405",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "19/06/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080401",
+                  "CA_HOUSE": "N/A",
+                  "CA_STREET": "N/A",
+                  "CA_CAD9": "KHM"
+                }
+              ],
+              "EMPLOYERS": [
+                {
+                  "EDLD": "08/05/2024",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "EMPLOYEE",
+                  "ELEN": "90",
+                  "ETMS": "250.00",
+                  "ECURR": "USD",
+                  "ENME": "BRIGHT LINE INTERNATIONAL SCHOOL",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1205",
+                    "EA_COMM": "120501",
+                    "EA_VILL": "12050103",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "19/06/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "PRIVATE SCHOOL TEACHER",
+                  "ELEN": "10",
+                  "ETMS": "250.00",
+                  "ECURR": "USD",
+                  "ENME": "SOM ATH PENH CHET",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080405",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "19/06/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "CLAERNER",
+                  "ELEN": "6",
+                  "ETMS": "220.00",
+                  "ECURR": "USD",
+                  "ENME": "COMPANY",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1205",
+                    "EA_COMM": "120501",
+                    "EA_VILL": "12050101",
+                    "EA_HOUSE": "N/A",
+                    "EA_STREET": "N/A",
+                    "EA_AD9": "KHM"
+                  }
+                }
+              ],
+              "ADVISORY_SUMMARY_TEXT": {
+                "ADVISORY_TEXT": "NOADV"
+              },
+              "SUMMARY": {
+                "CNT_PE": "14",
+                "CNT_MTDE": "0",
+                "CNT_ACC": "12",
+                "CNT_ACC_NORM": "1",
+                "CNT_ACC_DELQ": "1",
+                "CNT_ACC_CLO": "10",
+                "CNT_ACC_REJ": "0",
+                "CNT_ACC_WRO": "0",
+                "CNT_GACC": "0",
+                "CNT_GACC_NORM": "0",
+                "CNT_GACC_DELQ": "0",
+                "CNT_GACC_ACC_CLO": "0",
+                "CNT_GACC_REJ": "0",
+                "CNT_GACC_WRO": "0",
+                "EISDT": "26/05/2014",
+                "TOT_LIMITS": [
+                  {
+                    "TOT_LIM_CURR": "USD",
+                    "TOT_LIM": "149392.73"
+                  }
+                ],
+                "TOT_GLIMITS": [
+                  {
+                    "TOT_GLIM_CURR": "",
+                    "TOT_GLIM": "0.00"
+                  }
+                ],
+                "TOT_LIABILITIES": [
+                  {
+                    "TOT_LIAB_CURR": "USD",
+                    "TOT_LIAB": "24385.98"
+                  }
+                ],
+                "TOT_GLIABILITIES": [
+                  {
+                    "TOT_GLIAB_CURR": "",
+                    "TOT_GLIAB": "0.00"
+                  }
+                ],
+                "TOT_WO_AMT": [
+                  {
+                    "TOT_WO_CURR": "",
+                    "TOT_WO": "0.00"
+                  }
+                ],
+                "TOT_GWO_AMT": [
+                  {
+                    "TOT_GWO_CURR": "",
+                    "TOT_GWO": "0.00"
+                  }
+                ],
+                "TOT_WO_OS_BALANCE": [
+                  {
+                    "TOT_WO_OS_CURR": "",
+                    "TOT_WO_OS_BAL": "0.00"
+                  }
+                ],
+                "TOT_GWO_OS_BALANCE": [
+                  {
+                    "TOT_GWO_OS_CURR": "",
+                    "TOT_GWO_OS_BAL": "0.00"
+                  }
+                ]
+              },
+              "SCORE": {
+                "SC_SCORE": "100",
+                "SC_SCORECARD": "",
+                "SC_SCOREINDEX": "1",
+                "SC_ODDS": "",
+                "SC_BAD": "66.66",
+                "SC_MINIMUM": "100",
+                "SC_MAXIMUM": "1400"
+              }
+            },
+            {
+              "CAPL": "P",
+              "CID": {
+                "CID1": "N",
+                "CID2": "250198549",
+                "CID3": "25/07/2026"
+              },
+              "PROVIDED": {
+                "PCNAM": {
+                  "PCNMFA": "សរ",
+                  "PCNM1A": "ចាន់ដេត",
+                  "PCNMFE": "SOR",
+                  "PCNM1E": "CHANDETH"
+                },
+                "PCDOB": "07/05/2000",
+                "PCPLB": {
+                  "PCPLBC": "KHM",
+                  "PCPLBP": "25",
+                  "PCPLBD": "2507",
+                  "PCPLBCM": "250706"
+                },
+                "PCGND": "M",
+                "PCMAR": "S",
+                "PCNAT": "KHM",
+                "PCEML": ""
+              },
+              "AVAILABLE": {
+                "ACID": {
+                  "ACID1": "B",
+                  "ACID2": "4342",
+                  "ACID3": ""
+                },
+                "ACNAM": {
+                  "ACNMFA": "សរ",
+                  "ACNM1A": "ចាន់ដេត",
+                  "ACNMFE": "SOR",
+                  "ACNM1E": "CHANDETH"
+                },
+                "ACDOB": "07/05/2000",
+                "ACPLB": {
+                  "ACPLBC": "KHM",
+                  "ACPLBP": "03"
+                },
+                "ACGND": "M",
+                "ACMAR": "S",
+                "ACNAT": "KHM",
+                "ACEML": ""
+              },
+              "ADDITIONAL_IDS": [
+                {
+                  "AID_CID1": "B",
+                  "AID_CID2": "4342",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "16/06/2023"
+                }
+              ],
+              "ADDITIONAL_NAMES": [
+                {
+                  "ANM_CNMFA": "សរ",
+                  "ANM_CNM1A": "ចាន់ដេត",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "SOR",
+                  "ANM_CNM1E": "CHANDETH",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "26/02/2020"
+                }
+              ],
+              "PREV_ENQUIRIES": [
+                {
+                  "PE_DATE": "10/08/2023",
+                  "PE_ENQR": "ACTIVE PEOPLE'S MICROFINANCE INSTITUTION PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "AP-HO-250198549-1",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ចាន់ដេត",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "CHANDETH"
+                  }
+                },
+                {
+                  "PE_DATE": "16/06/2023",
+                  "PE_ENQR": "ACTIVE PEOPLE'S MICROFINANCE INSTITUTION PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "APSMC-SOR CHANDETH",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "2000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ចាន់ដេត",
+                    "PE_NMFE": "Sor",
+                    "PE_NM1E": "Chandeth"
+                  }
+                },
+                {
+                  "PE_DATE": "25/05/2023",
+                  "PE_ENQR": "AEON SPECIALIZED BANK (CAMBODIA) PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "0900577",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "4000000.00",
+                  "PE_CURR": "KHR",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "CHANDETH"
+                  }
+                },
+                {
+                  "PE_DATE": "26/02/2020",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "330010434",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "37000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ចាន់ដេត",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "CHANDETH"
+                  }
+                }
+              ],
+              "ACC_DETAILS": [
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490103",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "28244.25",
+                  "ACC_ISSU_DT": "17/09/2021",
+                  "ACC_PROD_EXP_DT": "19/03/2029",
+                  "ACC_STATUS": "L",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "498.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "22050.98",
+                  "ACC_ODB": "835.53",
+                  "ACC_LAST_AMT_PD": "180.00",
+                  "ACC_LAST_PAY_DT": "26/04/2024",
+                  "ACC_AS_OF_DT": "30/04/2024",
+                  "ACC_NXT_DU_DT": "17/05/2024",
+                  "ACC_SUMMRY": "221111110100110001011111",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490102",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "27388.48",
+                  "ACC_ISSU_DT": "07/05/2021",
+                  "ACC_PROD_EXP_DT": "05/02/2029",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "17/09/2021",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "28244.78",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "28244.78",
+                  "ACC_LAST_PAY_DT": "17/09/2021",
+                  "ACC_AS_OF_DT": "30/09/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CDDDQ",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    },
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490101",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "35000.00",
+                  "ACC_ISSU_DT": "04/03/2020",
+                  "ACC_PROD_EXP_DT": "03/03/2028",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "07/05/2021",
+                  "ACC_TNR": "96",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "27388.48",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "27388.48",
+                  "ACC_LAST_PAY_DT": "07/05/2021",
+                  "ACC_AS_OF_DT": "31/05/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C1111111110000Q",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "CA_LOAD_DT": "10/08/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "12",
+                  "CA_DIST": "1206",
+                  "CA_COMM": "120611",
+                  "CA_VILL": "12061100",
+                  "CA_HOUSE": "N/A",
+                  "CA_STREET": "N/A",
+                  "CA_CAD2A": ",",
+                  "CA_CAD2E": ",",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "16/06/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080403",
+                  "CA_HOUSE": "N/A",
+                  "CA_STREET": "N/A",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "25/05/2023",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "12",
+                  "CA_DIST": "1206",
+                  "CA_COMM": "120612",
+                  "CA_VILL": "12061207",
+                  "CA_CAD9": "KHM"
+                }
+              ],
+              "EMPLOYERS": [
+                {
+                  "EDLD": "08/05/2024",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "STUDENT",
+                  "ELEN": "60",
+                  "ETMS": "1.00",
+                  "ECURR": "USD",
+                  "ENME": "STUDENT",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "16/06/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "WORKER",
+                  "ELEN": "9",
+                  "ETMS": "250.00",
+                  "ECURR": "USD",
+                  "ENME": "YUTAK(TRANDING)CO.,LTD",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1204",
+                    "EA_COMM": "120408",
+                    "EA_VILL": "12040800",
+                    "EA_HOUSE": "N/A",
+                    "EA_STREET": "N/A",
+                    "EA_AD2A": ".",
+                    "EA_AD2E": ".",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "25/05/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "STAFF UP",
+                  "ELEN": "5",
+                  "ETMS": "250.00",
+                  "ECURR": "USD",
+                  "ENME": "YUTAK (TRADING)CO.,LTD",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "12",
+                    "EA_DIST": "1204",
+                    "EA_COMM": "120408",
+                    "EA_VILL": "12040804",
+                    "EA_AD9": "KHM"
+                  }
+                }
+              ],
+              "ADVISORY_SUMMARY_TEXT": {
+                "ADVISORY_TEXT": "NOADV"
+              },
+              "SUMMARY": {
+                "CNT_PE": "4",
+                "CNT_MTDE": "0",
+                "CNT_ACC": "3",
+                "CNT_ACC_NORM": "0",
+                "CNT_ACC_DELQ": "1",
+                "CNT_ACC_CLO": "2",
+                "CNT_ACC_REJ": "0",
+                "CNT_ACC_WRO": "0",
+                "CNT_GACC": "0",
+                "CNT_GACC_NORM": "0",
+                "CNT_GACC_DELQ": "0",
+                "CNT_GACC_ACC_CLO": "0",
+                "CNT_GACC_REJ": "0",
+                "CNT_GACC_WRO": "0",
+                "EISDT": "04/03/2020",
+                "TOT_LIMITS": [
+                  {
+                    "TOT_LIM_CURR": "USD",
+                    "TOT_LIM": "90632.73"
+                  }
+                ],
+                "TOT_GLIMITS": [
+                  {
+                    "TOT_GLIM_CURR": "",
+                    "TOT_GLIM": "0.00"
+                  }
+                ],
+                "TOT_LIABILITIES": [
+                  {
+                    "TOT_LIAB_CURR": "USD",
+                    "TOT_LIAB": "22050.98"
+                  }
+                ],
+                "TOT_GLIABILITIES": [
+                  {
+                    "TOT_GLIAB_CURR": "",
+                    "TOT_GLIAB": "0.00"
+                  }
+                ],
+                "TOT_WO_AMT": [
+                  {
+                    "TOT_WO_CURR": "",
+                    "TOT_WO": "0.00"
+                  }
+                ],
+                "TOT_GWO_AMT": [
+                  {
+                    "TOT_GWO_CURR": "",
+                    "TOT_GWO": "0.00"
+                  }
+                ],
+                "TOT_WO_OS_BALANCE": [
+                  {
+                    "TOT_WO_OS_CURR": "",
+                    "TOT_WO_OS_BAL": "0.00"
+                  }
+                ],
+                "TOT_GWO_OS_BALANCE": [
+                  {
+                    "TOT_GWO_OS_CURR": "",
+                    "TOT_GWO_OS_BAL": "0.00"
+                  }
+                ]
+              },
+              "SCORE": {
+                "SC_SCORE": "100",
+                "SC_SCORECARD": "",
+                "SC_SCOREINDEX": "1",
+                "SC_ODDS": "",
+                "SC_BAD": "66.66",
+                "SC_MINIMUM": "100",
+                "SC_MAXIMUM": "1400"
+              }
+            },
+            {
+              "CAPL": "P",
+              "CID": {
+                "CID1": "N",
+                "CID2": "250201116",
+                "CID3": "26/07/2026"
+              },
+              "PROVIDED": {
+                "PCNAM": {
+                  "PCNMFA": "សរ",
+                  "PCNM1A": "ដាលីន",
+                  "PCNMFE": "SOR",
+                  "PCNM1E": "DALIN"
+                },
+                "PCDOB": "04/02/1993",
+                "PCPLB": {
+                  "PCPLBC": "KHM",
+                  "PCPLBP": "25",
+                  "PCPLBD": "2507",
+                  "PCPLBCM": "250706"
+                },
+                "PCGND": "F",
+                "PCMAR": "M",
+                "PCNAT": "KHM",
+                "PCEML": ""
+              },
+              "AVAILABLE": {
+                "ACID": {
+                  "ACID1": "F",
+                  "ACID2": "08259986",
+                  "ACID3": ""
+                },
+                "ACNAM": {
+                  "ACNMFA": "សរ",
+                  "ACNM1A": "ដាលីន",
+                  "ACNMFE": "SOR",
+                  "ACNM1E": "DALIN"
+                },
+                "ACDOB": "04/02/1993",
+                "ACPLB": {
+                  "ACPLBC": "KHM",
+                  "ACPLBP": "03",
+                  "ACPLBD": "0305",
+                  "ACPLBCM": "030502"
+                },
+                "ACGND": "F",
+                "ACMAR": "M",
+                "ACNAT": "KHM",
+                "ACEML": ""
+              },
+              "ADDITIONAL_IDS": [
+                {
+                  "AID_CID1": "F",
+                  "AID_CID2": "08259986",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "23/01/2021"
+                },
+                {
+                  "AID_CID1": "N",
+                  "AID_CID2": "050201116",
+                  "AID_CID3": "26/07/2026",
+                  "AID_LOADDT": "01/05/2019"
+                },
+                {
+                  "AID_CID1": "F",
+                  "AID_CID2": "08ទ្រ.259986",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "28/03/2019"
+                }
+              ],
+              "ADDITIONAL_NAMES": [
+                {
+                  "ANM_CNMFA": "សរ",
+                  "ANM_CNM1A": "ដាលីន",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "SOR",
+                  "ANM_CNM1E": "DALIN",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "09/03/2018"
+                }
+              ],
+              "PREV_ENQUIRIES": [
+                {
+                  "PE_DATE": "19/01/2023",
+                  "PE_ENQR": "ADVANCED BANK OF ASIA LTD",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "190120230925CC2121",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "Sor",
+                    "PE_NM1E": "Dalin"
+                  }
+                },
+                {
+                  "PE_DATE": "24/11/2022",
+                  "PE_ENQR": "CAMBODIA POST BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "024ASL2211240958399",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "23/01/2021",
+                  "PE_ENQR": "GL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "GLF7328321",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2160.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "Sor",
+                    "PE_NM1E": "Dalin"
+                  }
+                },
+                {
+                  "PE_DATE": "26/02/2020",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "330010434",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "37000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "01/05/2019",
+                  "PE_ENQR": "CHOKCHEY FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "CCF00019-250201116",
+                  "PE_PRD": "MBL",
+                  "PE_AMOUNT": "403.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "01/05/2019",
+                  "PE_ENQR": "CHOKCHEY FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "CCF00019-050201116",
+                  "PE_PRD": "MBL",
+                  "PE_AMOUNT": "403.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "28/03/2019",
+                  "PE_ENQR": "GL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "GLF7306067",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2115.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "Sor",
+                    "PE_NM1E": "Dalin"
+                  }
+                },
+                {
+                  "PE_DATE": "12/02/2019",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "452",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "23500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "27/08/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_03",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "15000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                },
+                {
+                  "PE_DATE": "09/03/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_02",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "10500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "សរ",
+                    "PE_NM1A": "ដាលីន",
+                    "PE_NMFE": "SOR",
+                    "PE_NM1E": "DALIN"
+                  }
+                }
+              ],
+              "ACC_DETAILS": [
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490103",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "28244.25",
+                  "ACC_ISSU_DT": "17/09/2021",
+                  "ACC_PROD_EXP_DT": "19/03/2029",
+                  "ACC_STATUS": "L",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "498.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "22050.98",
+                  "ACC_ODB": "835.53",
+                  "ACC_LAST_AMT_PD": "180.00",
+                  "ACC_LAST_PAY_DT": "26/04/2024",
+                  "ACC_AS_OF_DT": "30/04/2024",
+                  "ACC_NXT_DU_DT": "17/05/2024",
+                  "ACC_SUMMRY": "221111110100110001011111",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490102",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "27388.48",
+                  "ACC_ISSU_DT": "07/05/2021",
+                  "ACC_PROD_EXP_DT": "05/02/2029",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "17/09/2021",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "28244.78",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "28244.78",
+                  "ACC_LAST_PAY_DT": "17/09/2021",
+                  "ACC_AS_OF_DT": "30/09/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CDDDQ",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    },
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490101",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "35000.00",
+                  "ACC_ISSU_DT": "04/03/2020",
+                  "ACC_PROD_EXP_DT": "03/03/2028",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "07/05/2021",
+                  "ACC_TNR": "96",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "27388.48",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "27388.48",
+                  "ACC_LAST_PAY_DT": "07/05/2021",
+                  "ACC_AS_OF_DT": "31/05/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C1111111110000Q",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "GL FINANCE PLC",
+                  "ACC_PRD": "MTL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "GLF-KDL-04-00090381",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "2115.00",
+                  "ACC_ISSU_DT": "28/03/2019",
+                  "ACC_PROD_EXP_DT": "28/03/2021",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "09/03/2020",
+                  "ACC_TNR": "24",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "119.85",
+                  "ACC_SEC": "MV",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "1561.55",
+                  "ACC_LAST_PAY_DT": "09/03/2020",
+                  "ACC_AS_OF_DT": "31/03/2020",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C00000000000Q",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "1185720019115",
+                  "ACC_RST_LOAN": "N",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "23500.00",
+                  "ACC_ISSU_DT": "26/02/2019",
+                  "ACC_PROD_EXP_DT": "26/02/2024",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "04/03/2020",
+                  "ACC_TNR": "0",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "19801.92",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "19801.92",
+                  "ACC_LAST_PAY_DT": "04/03/2020",
+                  "ACC_AS_OF_DT": "31/03/2020",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C000000000000M",
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": ""
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "CA_LOAD_DT": "23/01/2021",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0801",
+                  "CA_COMM": "080105",
+                  "CA_VILL": "08010502",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "05/04/2019",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "25",
+                  "CA_DIST": "2507",
+                  "CA_COMM": "250706",
+                  "CA_VILL": "25070602",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "01/04/2019",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080403",
+                  "CA_CAD1E": "#, , TONLOAB KHPOS CHEUNG, DAMNAK AMPIL, ANGK SNUOL, KANDAL",
+                  "CA_CAD9": "KHM"
+                }
+              ],
+              "EMPLOYERS": [
+                {
+                  "EDLD": "08/05/2024",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "BUSINESS OWNER",
+                  "ELEN": "60",
+                  "ETMS": "300.00",
+                  "ECURR": "USD",
+                  "ENME": "GROCERIES, PROVISION STORE",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "19/01/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "ENGINEER",
+                  "ELEN": "48",
+                  "ETMS": "700.00",
+                  "ECURR": "USD",
+                  "ENME": "N/A",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "24/11/2022",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "BUSINESS",
+                  "ELEN": "60",
+                  "ETMS": "810.00",
+                  "ECURR": "USD",
+                  "ENME": "OWNER",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                }
+              ],
+              "ADVISORY_SUMMARY_TEXT": {
+                "ADVISORY_TEXT": "NOADV"
+              },
+              "SUMMARY": {
+                "CNT_PE": "10",
+                "CNT_MTDE": "0",
+                "CNT_ACC": "5",
+                "CNT_ACC_NORM": "0",
+                "CNT_ACC_DELQ": "1",
+                "CNT_ACC_CLO": "4",
+                "CNT_ACC_REJ": "0",
+                "CNT_ACC_WRO": "0",
+                "CNT_GACC": "0",
+                "CNT_GACC_NORM": "0",
+                "CNT_GACC_DELQ": "0",
+                "CNT_GACC_ACC_CLO": "0",
+                "CNT_GACC_REJ": "0",
+                "CNT_GACC_WRO": "0",
+                "EISDT": "26/02/2019",
+                "TOT_LIMITS": [
+                  {
+                    "TOT_LIM_CURR": "USD",
+                    "TOT_LIM": "116247.73"
+                  }
+                ],
+                "TOT_GLIMITS": [
+                  {
+                    "TOT_GLIM_CURR": "",
+                    "TOT_GLIM": "0.00"
+                  }
+                ],
+                "TOT_LIABILITIES": [
+                  {
+                    "TOT_LIAB_CURR": "USD",
+                    "TOT_LIAB": "22050.98"
+                  }
+                ],
+                "TOT_GLIABILITIES": [
+                  {
+                    "TOT_GLIAB_CURR": "",
+                    "TOT_GLIAB": "0.00"
+                  }
+                ],
+                "TOT_WO_AMT": [
+                  {
+                    "TOT_WO_CURR": "",
+                    "TOT_WO": "0.00"
+                  }
+                ],
+                "TOT_GWO_AMT": [
+                  {
+                    "TOT_GWO_CURR": "",
+                    "TOT_GWO": "0.00"
+                  }
+                ],
+                "TOT_WO_OS_BALANCE": [
+                  {
+                    "TOT_WO_OS_CURR": "",
+                    "TOT_WO_OS_BAL": "0.00"
+                  }
+                ],
+                "TOT_GWO_OS_BALANCE": [
+                  {
+                    "TOT_GWO_OS_CURR": "",
+                    "TOT_GWO_OS_BAL": "0.00"
+                  }
+                ]
+              },
+              "SCORE": {
+                "SC_SCORE": "117",
+                "SC_SCORECARD": "",
+                "SC_SCOREINDEX": "1",
+                "SC_ODDS": "",
+                "SC_BAD": "63.99",
+                "SC_MINIMUM": "100",
+                "SC_MAXIMUM": "1400"
+              }
+            },
+            {
+              "CAPL": "P",
+              "CID": {
+                "CID1": "N",
+                "CID2": "101301808",
+                "CID3": "24/07/2026"
+              },
+              "PROVIDED": {
+                "PCNAM": {
+                  "PCNMFA": "ឈឹម",
+                  "PCNM1A": "រ៉ា",
+                  "PCNMFE": "CHHOEM",
+                  "PCNM1E": "RA"
+                },
+                "PCDOB": "01/03/1988",
+                "PCPLB": {
+                  "PCPLBC": "KHM",
+                  "PCPLBP": "21",
+                  "PCPLBD": "2110",
+                  "PCPLBCM": "211011"
+                },
+                "PCGND": "M",
+                "PCMAR": "M",
+                "PCNAT": "KHM",
+                "PCEML": ""
+              },
+              "AVAILABLE": {
+                "ACID": {
+                  "ACID1": "F",
+                  "ACID2": "08259986",
+                  "ACID3": ""
+                },
+                "ACNAM": {
+                  "ACNMFA": "ឈឹម",
+                  "ACNM1A": "រ៉ា",
+                  "ACNMFE": "CHHOEM",
+                  "ACNM1E": "RA"
+                },
+                "ACDOB": "01/03/1988",
+                "ACPLB": {
+                  "ACPLBC": "KHM",
+                  "ACPLBP": "21",
+                  "ACPLBD": "2110",
+                  "ACPLBCM": "211011"
+                },
+                "ACGND": "M",
+                "ACMAR": "S",
+                "ACNAT": "KHM",
+                "ACEML": ""
+              },
+              "ADDITIONAL_IDS": [
+                {
+                  "AID_CID1": "F",
+                  "AID_CID2": "08259986",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "23/01/2021"
+                },
+                {
+                  "AID_CID1": "F",
+                  "AID_CID2": "08ទ្រ.259986",
+                  "AID_CID3": "",
+                  "AID_LOADDT": "28/03/2019"
+                }
+              ],
+              "ADDITIONAL_NAMES": [
+                {
+                  "ANM_CNMFA": "ឈឹម",
+                  "ANM_CNM1A": "រ៉ា",
+                  "ANM_CNM2A": "",
+                  "ANM_CNM3A": "",
+                  "ANM_CNM7A": "",
+                  "ANM_CNMFE": "CHHOEN",
+                  "ANM_CNM1E": "RA",
+                  "ANM_CNM2E": "",
+                  "ANM_CNM3E": "",
+                  "ANM_CNM7E": "",
+                  "ANM_LOAD_DT": "09/03/2018"
+                }
+              ],
+              "PREV_ENQUIRIES": [
+                {
+                  "PE_DATE": "19/01/2023",
+                  "PE_ENQR": "ADVANCED BANK OF ASIA LTD",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "190120230925CC2121",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "Chhoem",
+                    "PE_NM1E": "Ra"
+                  }
+                },
+                {
+                  "PE_DATE": "24/11/2022",
+                  "PE_ENQR": "CAMBODIA POST BANK PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "024ASL2211240958399",
+                  "PE_PRD": "WCL",
+                  "PE_AMOUNT": "35000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "CHHOEM",
+                    "PE_NM1E": "RA"
+                  }
+                },
+                {
+                  "PE_DATE": "23/01/2021",
+                  "PE_ENQR": "GL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "GLF7328321",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2160.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "G",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "Chhoem",
+                    "PE_NM1E": "Ra"
+                  }
+                },
+                {
+                  "PE_DATE": "26/02/2020",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "330010434",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "37000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "CHHOEM",
+                    "PE_NM1E": "RA"
+                  }
+                },
+                {
+                  "PE_DATE": "28/03/2019",
+                  "PE_ENQR": "GL FINANCE PLC",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "S",
+                  "PE_MEMB_REF": "GLF7306067",
+                  "PE_PRD": "MTL",
+                  "PE_AMOUNT": "2115.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "G",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "Chhoem",
+                    "PE_NM1E": "Ra"
+                  }
+                },
+                {
+                  "PE_DATE": "12/02/2019",
+                  "PE_ENQR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "452",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "23500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "CHHOEM",
+                    "PE_NM1E": "RA"
+                  }
+                },
+                {
+                  "PE_DATE": "27/08/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_03",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "15000.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "CHHOEM",
+                    "PE_NM1E": "RA"
+                  }
+                },
+                {
+                  "PE_DATE": "09/03/2018",
+                  "PE_ENQR": "HATTHA BANK PLC.",
+                  "PE_TYPE": "NA",
+                  "PE_ACCT": "J",
+                  "PE_MEMB_REF": "233USD_154061677_02",
+                  "PE_PRD": "PEL",
+                  "PE_AMOUNT": "10500.00",
+                  "PE_CURR": "USD",
+                  "PE_APPL": "P",
+                  "PE_NAME": {
+                    "PE_NMFA": "ឈឹម",
+                    "PE_NM1A": "រ៉ា",
+                    "PE_NMFE": "CHHOEN",
+                    "PE_NM1E": "RA"
+                  }
+                }
+              ],
+              "ACC_DETAILS": [
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490103",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "28244.25",
+                  "ACC_ISSU_DT": "17/09/2021",
+                  "ACC_PROD_EXP_DT": "19/03/2029",
+                  "ACC_STATUS": "L",
+                  "ACC_CLSD_DT": "",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "498.00",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "22050.98",
+                  "ACC_ODB": "835.53",
+                  "ACC_LAST_AMT_PD": "180.00",
+                  "ACC_LAST_PAY_DT": "26/04/2024",
+                  "ACC_AS_OF_DT": "30/04/2024",
+                  "ACC_NXT_DU_DT": "17/05/2024",
+                  "ACC_SUMMRY": "221111110100110001011111",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490102",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "27388.48",
+                  "ACC_ISSU_DT": "07/05/2021",
+                  "ACC_PROD_EXP_DT": "05/02/2029",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "17/09/2021",
+                  "ACC_TNR": "90",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "28244.78",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "28244.78",
+                  "ACC_LAST_PAY_DT": "17/09/2021",
+                  "ACC_AS_OF_DT": "30/09/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "CDDDQ",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "17/09/2021",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    },
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                },
+                {
+                  "ACC_CRDTR": "DAUN PENH SPECIALIZED BANK PLC.",
+                  "ACC_PRD": "WCL",
+                  "ACC_GRP_REF": "",
+                  "ACC_ACC_NO": "LG0000490101",
+                  "ACC_RST_LOAN": "Y",
+                  "ACC_CURR": "USD",
+                  "ACC_LIMIT": "35000.00",
+                  "ACC_ISSU_DT": "04/03/2020",
+                  "ACC_PROD_EXP_DT": "03/03/2028",
+                  "ACC_STATUS": "C",
+                  "ACC_CLSD_DT": "07/05/2021",
+                  "ACC_TNR": "96",
+                  "ACC_FRQ": "M",
+                  "ACC_INSTL": "27388.48",
+                  "ACC_SEC": "LT",
+                  "ACC_CUB": "0.00",
+                  "ACC_ODB": "0.00",
+                  "ACC_LAST_AMT_PD": "27388.48",
+                  "ACC_LAST_PAY_DT": "07/05/2021",
+                  "ACC_AS_OF_DT": "31/05/2021",
+                  "ACC_NXT_DU_DT": "",
+                  "ACC_SUMMRY": "C1111111110000Q",
+                  "ACC_ADV_MSGS": [
+                    {
+                      "ACC_ADV_EFFDAT": "",
+                      "ACC_ADV_TXT": "Account Restructure impacted by COVID-19"
+                    }
+                  ],
+                  "ACC_CAPL": "P",
+                  "ACC_LOAN_TYPE": "L"
+                }
+              ],
+              "GUARANTEED_ACCOUNTS": [
+                {
+                  "GRT_CRDTR": "GL FINANCE PLC",
+                  "GRT_PRD": "MTL",
+                  "GRT_GRP_REF": "",
+                  "GRT_ACC_NO": "GLF-KDL-04-00090381",
+                  "GRT_RST_LOAN": "N",
+                  "GRT_CURR": "USD",
+                  "GRT_LIMIT": "2115.00",
+                  "GRT_ISSU_DT": "28/03/2019",
+                  "GRT_PROD_EXP_DT": "28/03/2021",
+                  "GRT_STATUS": "C",
+                  "GRT_CLSD_DT": "09/03/2020",
+                  "GRT_TNR": "24",
+                  "GRT_FRQ": "M",
+                  "GRT_INSTL": "119.85",
+                  "GRT_SEC": "MV",
+                  "GRT_CUB": "0.00",
+                  "GRT_ODB": "0.00",
+                  "GRT_LAST_AMT_PD": "1561.55",
+                  "GRT_LAST_PAY_DT": "09/03/2020",
+                  "GRT_AS_OF_DT": "31/03/2020",
+                  "GRT_NXT_DU_DT": "",
+                  "GRT_SUMMRY": "C00000000000Q",
+                  "GRT_LOAN_TYPE": ""
+                }
+              ],
+              "ADDRESSES": [
+                {
+                  "CA_LOAD_DT": "23/01/2021",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0801",
+                  "CA_COMM": "080105",
+                  "CA_VILL": "08010502",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "01/04/2019",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080403",
+                  "CA_CAD1E": "#, , TONLOAB KHPOS CHEUNG, DAMNAK AMPIL, ANGK SNUOL, KANDAL",
+                  "CA_CAD9": "KHM"
+                },
+                {
+                  "CA_LOAD_DT": "09/03/2018",
+                  "CA_CADT": "RESID",
+                  "CA_PROV": "08",
+                  "CA_DIST": "0808",
+                  "CA_COMM": "080804",
+                  "CA_VILL": "08080403",
+                  "CA_CAD9": "KHM"
+                }
+              ],
+              "EMPLOYERS": [
+                {
+                  "EDLD": "08/05/2024",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "ELECTRICIAN",
+                  "ELEN": "3",
+                  "ETMS": "450.00",
+                  "ECURR": "USD",
+                  "ENME": "CHONGTAI INDUSTRIAL CAMBODIA CO LTD",
+                  "EADR": {
+                    "EA_CADT": "WORK",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080410",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "19/01/2023",
+                  "ETYP": "C",
+                  "ESLF": "N",
+                  "EOCE": "ELECTRICIAN",
+                  "ELEN": "60",
+                  "ETMS": "715.00",
+                  "ECURR": "USD",
+                  "ENME": "N/A",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                },
+                {
+                  "EDLD": "24/11/2022",
+                  "ETYP": "C",
+                  "ESLF": "Y",
+                  "EOCE": "STAFF",
+                  "ELEN": "60",
+                  "ETMS": "700.00",
+                  "ECURR": "USD",
+                  "ENME": "COMPANY",
+                  "EADR": {
+                    "EA_CADT": "RESID",
+                    "EA_PROV": "08",
+                    "EA_DIST": "0808",
+                    "EA_COMM": "080804",
+                    "EA_VILL": "08080403",
+                    "EA_AD9": "KHM"
+                  }
+                }
+              ],
+              "ADVISORY_SUMMARY_TEXT": {
+                "ADVISORY_TEXT": "NOADV"
+              },
+              "SUMMARY": {
+                "CNT_PE": "8",
+                "CNT_MTDE": "0",
+                "CNT_ACC": "3",
+                "CNT_ACC_NORM": "0",
+                "CNT_ACC_DELQ": "1",
+                "CNT_ACC_CLO": "2",
+                "CNT_ACC_REJ": "0",
+                "CNT_ACC_WRO": "0",
+                "CNT_GACC": "1",
+                "CNT_GACC_NORM": "0",
+                "CNT_GACC_DELQ": "0",
+                "CNT_GACC_ACC_CLO": "1",
+                "CNT_GACC_REJ": "0",
+                "CNT_GACC_WRO": "0",
+                "EISDT": "28/03/2019",
+                "TOT_LIMITS": [
+                  {
+                    "TOT_LIM_CURR": "USD",
+                    "TOT_LIM": "90632.73"
+                  }
+                ],
+                "TOT_GLIMITS": [
+                  {
+                    "TOT_GLIM_CURR": "USD",
+                    "TOT_GLIM": "2115.00"
+                  }
+                ],
+                "TOT_LIABILITIES": [
+                  {
+                    "TOT_LIAB_CURR": "USD",
+                    "TOT_LIAB": "22050.98"
+                  }
+                ],
+                "TOT_GLIABILITIES": [
+                  {
+                    "TOT_GLIAB_CURR": "USD",
+                    "TOT_GLIAB": "0.00"
+                  }
+                ],
+                "TOT_WO_AMT": [
+                  {
+                    "TOT_WO_CURR": "",
+                    "TOT_WO": "0.00"
+                  }
+                ],
+                "TOT_GWO_AMT": [
+                  {
+                    "TOT_GWO_CURR": "",
+                    "TOT_GWO": "0.00"
+                  }
+                ],
+                "TOT_WO_OS_BALANCE": [
+                  {
+                    "TOT_WO_OS_CURR": "",
+                    "TOT_WO_OS_BAL": "0.00"
+                  }
+                ],
+                "TOT_GWO_OS_BALANCE": [
+                  {
+                    "TOT_GWO_OS_CURR": "",
+                    "TOT_GWO_OS_BAL": "0.00"
+                  }
+                ]
+              },
+              "SCORE": {
+                "SC_SCORE": "136",
+                "SC_SCORECARD": "",
+                "SC_SCOREINDEX": "1",
+                "SC_ODDS": "",
+                "SC_BAD": "60.91",
+                "SC_MINIMUM": "100",
+                "SC_MAXIMUM": "1400"
+              }
+            }
+          ],
+          "DISCLAIMER": {
+            "DI_TEXT": "This information has been collated from various sources. It does not represent the opinion of Credit Bureau Cambodia and Credit Bureau Cambodia assumes no responsibility for it. Credit Bureau Cambodia will not be liable (in contract or otherwise whatsoever) with respect to the collation or supply of the information or any use made of it, whether in relation to its accuracy or completeness or any other matter whatsoever. The information is supplied on a confidential basis to you and not for the use or reliance of any other party except any person on whose behalf you have sought the information."
+          }
+        }
+      }
+    }
+  }
+}

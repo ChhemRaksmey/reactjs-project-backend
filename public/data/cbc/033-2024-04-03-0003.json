@@ -1,0 +1,86 @@
+{"RESPONSE" :{"SERVICE":"CBAJSNENQ","ACTION":"A_SC","STATUS":"Error","HEADER" :{"MEMBER_ID":"033","USER_ID":"CKB_XML","TOT_ITEMS":"0","ERR_ITEMS":"10"},"MESSAGE" :{
+    "HEADER": {
+        "ENQUIRY REFERENCE": "033-2024-04-03-0003"
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CADPR",
+            "ERR_MSGID": "B2B0400",
+            "ERR_TEXT": "Province cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CADDS",
+            "ERR_MSGID": "B2B0401",
+            "ERR_TEXT": "District cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CADCM",
+            "ERR_MSGID": "B2B0402",
+            "ERR_TEXT": "Commune cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CADVL",
+            "ERR_MSGID": "B2B0403",
+            "ERR_TEXT": "Village cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CAD2E",
+            "ERR_MSGID": "B2B0403",
+            "ERR_TEXT": "Village cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "CAD2A",
+            "ERR_MSGID": "B2B0403",
+            "ERR_TEXT": "Village cannot be blanks"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "EOCA EOCE",
+            "ERR_MSGID": "B2B0132",
+            "ERR_TEXT": "0132 Occupation not supplied"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "ELEN",
+            "ERR_MSGID": "B2B0726",
+            "ERR_TEXT": "0726 Length of Service in month not supplied"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "ETMS",
+            "ERR_MSGID": "B2B0133",
+            "ERR_TEXT": "Total Monthly salary/income not supplied"
+        }
+    },
+    "ITEM": {
+        "ERROR": {
+            "CONSUMER_SEQ": "1",
+            "ERR_FIELD": "ENMA ENME",
+            "ERR_MSGID": "B2B0134",
+            "ERR_TEXT": "0134 Employer name not supplied"
+        }
+    }
+}
+}}        
