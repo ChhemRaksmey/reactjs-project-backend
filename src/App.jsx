@@ -13,6 +13,19 @@ import PageAdminApplications from './pages/admin/PageAdminApplications.jsx';
 import PageAdminPrivileges from './pages/admin/PageAdminPrivileges.jsx';
 import PageAdminUsers from './pages/admin/PageAdminUsers.jsx';
 
+
+import PageAmlRiskLevel         from './pages/aml/PageAmlRiskLevel.jsx';
+import PageAmlRiskCountry       from './pages/aml/PageAmlRiskCountry.jsx';
+import PageAmlResourceLocal     from './pages/aml/PageAmlResourceLocal.jsx';
+import PageAmlResourceOversea   from './pages/aml/PageAmlResourceOversea.jsx';
+import PageAmlDetectionRoles    from './pages/aml/PageAmlDetectionRoles.jsx';
+import PageAmlOnBoardScanning   from './pages/aml/PageAmlOnBoardScanning.jsx';
+import PageAmlSanctionListBlack from './pages/aml/PageAmlSanctionListBlack.jsx';
+import PageAmlSanctionListWatch from './pages/aml/PageAmlSanctionListWatch.jsx';
+import PageAmlSanctionListWhite from './pages/aml/PageAmlSanctionListWhite.jsx';
+import PageAmlDetectedRoles     from './pages/aml/PageAmlDetectedRoles.jsx';
+
+
 export default function App() {
 
   useEffect(() => {
@@ -30,25 +43,33 @@ export default function App() {
     <AuthProvider>
       <ToastProvider>
         <Routes>
+
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
+
           <Route path="/login" element={<Login />} />
 
-          {/* <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-          <Route path="/users"     element={<ProtectedRoute><Users /></ProtectedRoute>} />
-
-          <Route path="/admin/modules"      element={<ProtectedRoute><PageAdminModules /></ProtectedRoute>} />
-          <Route path="/admin/applications" element={<ProtectedRoute><PageAdminApplications /></ProtectedRoute>} />
-          <Route path="/admin/privileges"   element={<ProtectedRoute><PageAdminPrivileges /></ProtectedRoute>} />
-          <Route path="/admin/users"        element={<ProtectedRoute><PageAdminUsers /></ProtectedRoute>} /> */}
-
           <Route element={<ProtectedRoute />}>
+
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/users" element={<Users />} />
 
-            <Route path="/admin/modules" element={<PageAdminModules />} />
+            <Route path="/admin/modules"      element={<PageAdminModules />} />
             <Route path="/admin/applications" element={<PageAdminApplications />} />
-            <Route path="/admin/privileges" element={<PageAdminPrivileges />} />
-            <Route path="/admin/users" element={<PageAdminUsers />} />
+            <Route path="/admin/privileges"   element={<PageAdminPrivileges />} />
+            <Route path="/admin/users"        element={<PageAdminUsers />} />
+
+
+            <Route path="/aml/risk-level"          element={<PageAmlRiskLevel />} />
+            <Route path="/aml/risk-country"        element={<PageAmlRiskCountry />} />
+            <Route path="/aml/resource-local"      element={<PageAmlResourceLocal />} />
+            <Route path="/aml/resource-oversea"    element={<PageAmlResourceOversea />} />
+            <Route path="/aml/detection-roles"     element={<PageAmlDetectionRoles />} />
+            <Route path="/aml/onboard-scanning"    element={<PageAmlOnBoardScanning />} />
+            <Route path="/aml/sanction/list-black" element={<PageAmlSanctionListBlack />} />
+            <Route path="/aml/sanction/list-watch" element={<PageAmlSanctionListWatch />} />
+            <Route path="/aml/sanction/list-white" element={<PageAmlSanctionListWhite />} />
+            <Route path="/aml/detected-roles"      element={<PageAmlDetectedRoles />} />
+
           </Route>
 
           <Route path="*" element={<Navigate to="/dashboard" replace />} />

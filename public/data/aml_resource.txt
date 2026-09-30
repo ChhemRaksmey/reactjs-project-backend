@@ -1,0 +1,4 @@
+https://scsanctions.un.org/resources/xml/en/consolidated.xml
+https://webgate.ec.europa.eu/europeaid/fsd/fsf/public/files/xmlFullSanctionsList_1_1/content?token=n002pc6m
+https://www.treasury.gov/ofac/downloads/sdn.xml
+https://www.treasury.gov/ofac/downloads/consolidated/consolidated.xml

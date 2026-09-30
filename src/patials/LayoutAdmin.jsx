@@ -46,20 +46,6 @@ export function LayoutAdminNavigation () {
                         <button aria-expanded="false" aria-haspopup="true" className="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown" id="page-header-search-dropdown" type="button" >
                             <i className="mdi mdi-magnify"></i>
                         </button>
-                        <div aria-labelledby="page-header-search-dropdown" className="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" >
-                            <form className="p-3">
-                                <div className="form-group m-0">
-                                    <div className="input-group">
-                                        <input aria-label="Recipient's username" className="form-control" placeholder="Search ..." type="text" />
-                                        <div className="input-group-append">
-                                            <button className="btn btn-primary" type="submit">
-                                                <i className="mdi mdi-magnify"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                     
                     <div className="dropdown d-inline-block">
@@ -194,26 +180,21 @@ export function LayoutAdminNavigation () {
                         </button>
                         <div className="dropdown-menu dropdown-menu-end">
                             <a className="dropdown-item" href="#">
-                                <i className="bx bx-user font-size-16 align-middle me-1"></i>
-                                <span key="t-profile">Profile</span>
+                                <i className="font-size-16 align-middle me-3 bx bx-user"></i>
+                                <span key="t-nav-profile">Profile</span>
                             </a>
                             <a className="dropdown-item" href="#">
-                                <i className="bx bx-wallet font-size-16 align-middle me-1"></i>
-                                <span key="t-my-wallet">My Wallet</span>
-                            </a>
-                            <a className="dropdown-item d-block" href="#">
-                                <span className="badge bg-success float-end">11</span>
-                                <i className="bx bx-wrench font-size-16 align-middle me-1"></i>
-                                <span key="t-settings">Settings</span>
+                                <i className="font-size-16 align-middle me-3 bx bx-time-five"></i>
+                                <span key="t-nav-my-activities">My Activities</span>
                             </a>
                             <a className="dropdown-item" href="#">
-                                <i className="bx bx-lock-open font-size-16 align-middle me-1"></i>
-                                <span key="t-lock-screen">Lock screen</span>
+                                <i className="font-size-16 align-middle me-3 bx bx-wrench"></i>
+                                <span key="t-nav-change-password">Change Password</span>
                             </a>
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item text-danger" href="#" onClick={AuthLogout}>
-                                <i className="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i>
-                                <span key="t-logout">Logout</span>
+                            <a className="dropdown-item text-danger" onClick={AuthLogout}>
+                                <i className="font-size-16 align-middle me-3 bx bx-power-off text-danger"></i>
+                                <span key="t-nav-logout">Logout</span>
                             </a>
                         </div>
                     </div>
@@ -235,16 +216,18 @@ export function LayoutAdminSidebar () {
                         <li className="menu-title" key="t-menu">Administrator</li>
 
                         <li>
-                            <a className="has-arrow waves-effect pt-2 pb-1" href="#">
+                            <a className="waves-effect pt-2 pb-1 has-arrow " href="#">
+                                <i className="bx bx-pie-chart-alt-2"></i>
                                 <span key="t-dashboards">Dashboard</span>
                             </a>
-                            <ul aria-expanded="false" className="sub-menu" >
-                                <li><NavLink className="ps-5" to="/dashboard">System Administrator</NavLink></li>
+                            <ul aria-expanded="false" className="sub-menu">
+                                <li><NavLink className="ps-5" key="t-dashboard" to="/dashboard">System Administrator</NavLink></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a className="has-arrow waves-effect pt-2 pb-1" href="#">
+                            <a className="waves-effect pt-2 pb-1 has-arrow " href="#">
+                                <i className="bx bx-cog"></i>
                                 <span key="t-dashboards">System Administrator</span>
                             </a>
                             <ul aria-expanded="false" className="sub-menu">
@@ -252,6 +235,40 @@ export function LayoutAdminSidebar () {
                                 <li><NavLink className="ps-5" key="t-admin-applications" to="/admin/applications">Applications</NavLink></li>
                                 <li><NavLink className="ps-5" key="t-admin-privileges"   to="/admin/privileges">Privileges</NavLink></li>
                                 <li><NavLink className="ps-5" key="t-admin-users"        to="/admin/users">User Setup</NavLink></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a className="waves-effect pt-2 pb-1 has-arrow " href="#">
+                                <i className="bx bx-briefcase-alt-2"></i>
+                                <span key="t-aml">Maintenances</span>
+                            </a>
+                            <ul aria-expanded="false" className="sub-menu">
+                                <li><NavLink className="ps-5" key="t-aml-RiskLevel"              to="/aml/risk-level">Risk Level</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-RiskCountry"            to="/aml/risk-country">Risk Country</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-ResourcesOversea"       to="/aml/resource-oversea">Resources Oversea</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-ResourcesLocal"         to="/aml/resource-local">Resources Local</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-CustomerDetectionRoles" to="/aml/customer-detection-roles">Customer Detection Roles</NavLink></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <NavLink className="waves-effect pt-2 pb-1" to="/aml/onboard-scanning">
+                                <i className="bx bx-search-alt"></i>
+                                <span key="t-aml-OnBoardScanning">OnBoard Scanning</span>
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <a className="waves-effect pt-2 pb-1 has-arrow " href="#">
+                                <i className="bx bx-user-circle"></i>
+                                <span key="t-aml">Sanction</span>
+                            </a>
+                            <ul aria-expanded="false" className="sub-menu">
+                                <li><NavLink className="ps-5" key="t-aml-SanctionBlacklist"     to="/aml/sanction/list-black">Blacklist</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-SanctionWatchlist"     to="/aml/sanction/list-watch">Watchlist</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-SanctionWhitelist"     to="/aml/sanction/list-white">Whitelist</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-aml-SanctionRolesDetected" to="/aml/sanction/roles-detected">Roles Detected</NavLink></li>
                             </ul>
                         </li>
 

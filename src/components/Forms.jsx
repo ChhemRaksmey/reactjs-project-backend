@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 
 
-export function InputText ({ id="", name="", value="", disable="", placeholder="", onChange=() => {}}) {
+export function InputText ({ id="", name="", value="", disable=false, placeholder="", onChange=() => {}}) {
     return (<>
         <input
             className="form-control"
@@ -18,7 +18,7 @@ export function InputText ({ id="", name="", value="", disable="", placeholder="
     </>);
 }
 
-export function InputNumber ({ id="", name="", value="", disable="", placeholder="", onChange=() => {}}) {
+export function InputNumber ({ id="", name="", value="", disable=false, placeholder="", onChange=() => {}}) {
     return (<>
         <input
             className="form-control"
@@ -34,7 +34,7 @@ export function InputNumber ({ id="", name="", value="", disable="", placeholder
     </>);
 }
 
-export function InputTextArea ({ id="", name="", value="", disable="", placeholder="", onChange=() => {}}) {
+export function InputTextArea ({ id="", name="", value="", disable=false, placeholder="", onChange=() => {}}) {
     return (<>
         <textarea
             className="form-control"
@@ -50,7 +50,7 @@ export function InputTextArea ({ id="", name="", value="", disable="", placehold
     </>);
 }
 
-export function InputCheckbox ({ label="", id="", name="", value="", disable="", placeholder="", onChange=() => {}}) {
+export function InputCheckbox ({ label="", id="", name="", value=false, disable="", placeholder="", onChange=() => {}}) {
     return (<>
         <div className="form-check">
             <label className="form-check-label">
@@ -68,12 +68,13 @@ export function InputCheckbox ({ label="", id="", name="", value="", disable="",
     </>);
 }
 
-export function InputDate ({ id="", name="", value="", disable="", format="yyyy M dd", onChange=() => {}}) {
+export function InputDate ({ id="", name="", value="", placeholder="", disable=false, format="yyyy M dd", onChange=() => {}}) {
     return (<>
         <div className="input-group" id={id}>
             <input className="form-control"
                 id={id}
                 name={name}
+                placeholder={placeholder}
                 readOnly={disable}
                 disabled={disable}
                 value={value}
@@ -87,7 +88,7 @@ export function InputDate ({ id="", name="", value="", disable="", format="yyyy 
     </>);
 }
 
-export function InputTime ({ id="", name="", value="", disable="", format="yyyy M dd", onChange=() => {}}) {
+export function InputTime ({ id="", name="", value="", disable=false, format="yyyy M dd", onChange=() => {}}) {
 
     useEffect(() => {
         if (window.$ && window.$.fn.timepicker) {
@@ -117,7 +118,7 @@ export function InputTime ({ id="", name="", value="", disable="", format="yyyy 
     </>);
 }
 
-export function SelectSingle ({ id="", name="", value="", disable="", listitems=[], onChange=() => {}}) {
+export function SelectSingle ({ id="", name="", value="", disable=false, listitems=[], onChange=() => {}}) {
 
     return (<>
         <select className="form-control"
@@ -135,7 +136,7 @@ export function SelectSingle ({ id="", name="", value="", disable="", listitems=
     </>);
 }
 
-export function InputButton ({ children, id="", name="", value="", disable="", type="button", label, onChange=() => {}}) {
+export function InputButton ({ children, id="", name="", value="", disable=false, type="button", label, onChange=() => {}}) {
     return (<>
         <button className="btn btn-primary"
             disabled={disable}
