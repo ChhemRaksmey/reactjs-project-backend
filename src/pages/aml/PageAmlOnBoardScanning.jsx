@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import AppShell from "../../components/AppShell.jsx";
-import { Delay } from '../../utils/Helper.jsx';
 import { InputText, InputDate, SelectSingle } from '../../components/Forms.jsx';
-
 
 export default function PageAmlOnBoardScanning() {
 
@@ -17,7 +15,6 @@ export default function PageAmlOnBoardScanning() {
 
   const [formSearch, setFormSearch] = useState(FORM_EMPTY);
 
-  // refs so we don't re-run effect when state changes
   const setFormSearchRef = useRef(setFormSearch);
   setFormSearchRef.current = setFormSearch;
 
@@ -32,13 +29,6 @@ export default function PageAmlOnBoardScanning() {
     $gender.select2();
     $country.select2();
     $ctype.select2();
-
-    // $dob.datepicker({
-    //   autoclose: true,
-    //   format: "yyyy-mm-dd",
-    //   container: "#search_date_of_birth-container",
-    //   todayHighlight: true,
-    // });
 
     const onDob = (e) => {
       const v = e.format ? e.format("yyyy-mm-dd") : e.target.value;
@@ -129,16 +119,6 @@ export default function PageAmlOnBoardScanning() {
                     ]}
                   />
                 </div>
-          
-                {/* <div className="mb-2 col-md-2 px-1">
-                  <SelectSingle id="search_customer_type" onChange={(e) => setFormSearch({ ...formSearch, search_customer_type: e.target.value })}
-                    listitems={[
-                      {value:"", label:"All Customer Types"},
-                      {value:"Individual", label:"Individual"},
-                      {value:"Cooperate", label:"Cooperate"}
-                    ]}
-                  />
-                </div> */}
 
                 <div className="mb-2 col-md-1 px-1">
                   <a className="btn btn-soft-secondary w-100" type="button">
@@ -155,28 +135,26 @@ export default function PageAmlOnBoardScanning() {
               <table className="table mb-0">
                 <thead>
                   <tr>
-                    <th className="py-2 col-10">Module Name</th>
-                    <th className="py-2 col-1 text-center">Status</th>
+                    <th className="py-2 col-2">Detected By Resource</th>
+                    <th className="py-2 col-6">Module Name</th>
+                    <th className="py-2 col-1 text-center">Document</th>
+                    <th className="py-2 col-1 text-center">Similar Name</th>
+                    <th className="py-2 col-1 text-center">Risk Level</th>
                     <th className="py-2 col-1 text-center">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {Array.from({ length: 5 }).map((_, index) => (
                     <tr key={index}>
-                      <td className="py-1">User Name {index + 1}</td>
-                      <td className="py-1 text-center"><span className="badge badge-soft-primary">Active</span></td>
-                      <td className="py-1 text-center">
-                        <div className="btn-group">
-                          <a aria-expanded="true" className="dropdown-toggle font-size-16" data-bs-toggle="dropdown" type="button">
-                            <i className="mdi mdi-cog"></i>
-                          </a>
-                          <div className="dropdown-menu" data-popper-placement="top-start" style={{position: "absolute", inset: "auto auto 0px 0px", margin: "0px", transform: "translate3d(0px, -28.8px, 0px)"}}>
-                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "View", ); }}>View</a>
-                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "Edit", ); }}>Edit</a>
-                            <div className="dropdown-divider"></div>
-                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "Authorize"); }}>Authorize</a>
-                          </div>
-                        </div>
+                      <td className="py-2">User Name {index + 1}</td>
+                      <td className="py-2">User Name {index + 1}</td>
+                      <td className="py-2 text-center"><span className="badge badge-soft-primary">No</span></td>
+                      <td className="py-2 text-center"><span className="badge badge-soft-primary">No</span></td>
+                      <td className="py-2 text-center"><span className="badge badge-soft-warning">Meduim</span></td>
+                      <td className="py-2 text-center">
+                        <a className="" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "View", ); }}>
+                          <i className="fas fa-eye"></i>
+                        </a>
                       </td>
                     </tr>
                   ))}
