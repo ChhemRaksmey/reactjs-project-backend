@@ -152,6 +152,7 @@ export default function PageAdminPrivileges() {
 
     handleEnableForm(true, true, "");
     setLblBtnSubmit("Submit");
+    toastr["info"]("record had been Created");
   }
 
   const handleFormEditSubmit = async (e) => {
@@ -163,6 +164,7 @@ export default function PageAdminPrivileges() {
     
     handleEnableForm(true, true, "");
     setLblBtnSubmit("Submit");
+    toastr["info"]("record had been Updated");
   }
 
   const handleFormAuthorizeApprove = async (e) => {
@@ -174,6 +176,7 @@ export default function PageAdminPrivileges() {
 
     handleEnableForm(true, true, "");
     setLblBtnApprove("Submit");
+    toastr["success"]("record had been Approved");
   }
 
   const handleFormAuthorizeDelete = async (e) => {
@@ -185,6 +188,7 @@ export default function PageAdminPrivileges() {
 
     handleEnableForm(true, true, "");
     setLblBtnDelete("Submit");
+    toastr["danger"]("record had been Deleted");
   }
 
 
@@ -233,7 +237,7 @@ export default function PageAdminPrivileges() {
                       </>);
                     case "Authorize":
                       return (<>
-                        <button disabled={enableButtons} type="submit" className="btn btn-primary" onClick={handleFormAuthorizeApprove}>{lblBtnApprove}</button>
+                        <button disabled={enableButtons} type="submit" className="btn btn-success" onClick={handleFormAuthorizeApprove}>{lblBtnApprove}</button>
                         <button disabled={enableButtons} type="submit" className="btn btn-danger" onClick={handleFormAuthorizeDelete}>{lblBtnDelete}</button>
                       </>);
                   }

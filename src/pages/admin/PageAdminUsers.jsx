@@ -29,10 +29,6 @@ export default function PageAdminUsers() {
   const [lblBtnSubmit,        setLblBtnSubmit]        = useState("Submit");
   const [lblBtnApprove,       setLblBtnApprove]       = useState("Approve");
   const [lblBtnDelete,        setLblBtnDelete]        = useState("Delete");
-  const [lblBtnResetPassword, setLblBtnResetPassword] = useState("Reset Password");
-  const [lblBtnResetExpired,  setLblBtnResetExpired]  = useState("Reset Expired");
-  const [lblBtnResetDisable,  setLblBtnResetDisable]  = useState("Reset Disable");
-  const [lblBtnResetEnable,   setLblBtnResetEnable]   = useState("Reset Enable");
 
   const [modalShow,  setModalShow] = useState("");
   const [formRecid,  setFormRecid] = useState("");
@@ -170,6 +166,7 @@ export default function PageAdminUsers() {
 
     handleEnableForm(true, true, "");
     setLblBtnSubmit("Submit");
+    toastr["info"]("record had been Created");
   }
 
   const handleFormEditSubmit = async (e) => {
@@ -181,6 +178,7 @@ export default function PageAdminUsers() {
     
     handleEnableForm(true, true, "");
     setLblBtnSubmit("Submit");
+    toastr["info"]("record had been Updated");
   }
 
   const handleFormAuthorizeApprove = async (e) => {
@@ -192,6 +190,7 @@ export default function PageAdminUsers() {
 
     handleEnableForm(true, true, "");
     setLblBtnApprove("Submit");
+    toastr["success"]("record had been Approved");
   }
 
   const handleFormAuthorizeDelete = async (e) => {
@@ -203,49 +202,36 @@ export default function PageAdminUsers() {
 
     handleEnableForm(true, true, "");
     setLblBtnDelete("Submit");
+    toastr["danger"]("record had been Deleted");
   }
 
-  const handleFormResetPassword = async (e) => {
+  const handleFormResetPassword = async (e, recid) => {
     e.preventDefault();
     handleEnableForm(false, false, modalShow);
-    setLblBtnResetPassword("Reset Password .....");
     
     await Delay();
     handleEnableForm(true, true, "");
-    setLblBtnResetPassword("Reset Password");
+    toastr["info"]("User Had Been Reset Password!");
   }
   
-  const handleFormResetExpired = async (e) => {
+  const handleFormResetDisable = async (e, recid) => {
     e.preventDefault();
     handleEnableForm(false, false, modalShow);
-    setLblBtnResetExpired("Reset Expired .....");
     
     await Delay();
   
     handleEnableForm(true, true, "");
-    setLblBtnResetExpired("Reset Expired");
+    toastr["warning"]("User Had Been Disabled!");
   }
   
-  const handleFormResetDisable = async (e) => {
+  const handleFormResetEnable = async (e, recid) => {
     e.preventDefault();
     handleEnableForm(false, false, modalShow);
-    setLblBtnResetDisable("Reset Disable .....");
     
     await Delay();
   
     handleEnableForm(true, true, "");
-    setLblBtnResetDisable("Reset Disable");
-  }
-  
-  const handleFormResetEnable = async (e) => {
-    e.preventDefault();
-    handleEnableForm(false, false, modalShow);
-    setLblBtnResetEnable("Reset Enable .....");
-    
-    await Delay();
-  
-    handleEnableForm(true, true, "");
-    setLblBtnResetEnable("Reset Enable");
+    toastr["info"]("User Had Been Enable!");
   }
 
 
@@ -294,7 +280,7 @@ export default function PageAdminUsers() {
                       </>);
                     case "Authorize":
                       return (<>
-                        <button disabled={enableButtons} type="submit" className="btn btn-primary" onClick={handleFormAuthorizeApprove}>{lblBtnApprove}</button>
+                        <button disabled={enableButtons} type="submit" className="btn btn-success" onClick={handleFormAuthorizeApprove}>{lblBtnApprove}</button>
                         <button disabled={enableButtons} type="submit" className="btn btn-danger" onClick={handleFormAuthorizeDelete}>{lblBtnDelete}</button>
                       </>);
                   }
@@ -465,19 +451,6 @@ export default function PageAdminUsers() {
               
             </div>
 
-            {
-              modalShow !== "Reset"
-              ? <></>
-              : <>
-                <div className="modal-footer d-flex flex-wrap">
-                  <button disabled={enableButtons} type="button" className="btn btn-primary" onClick={handleFormResetPassword}>{lblBtnResetPassword}</button>
-                  <button disabled={enableButtons} type="button" className="btn btn-primary" onClick={handleFormResetExpired}>{lblBtnResetExpired}</button>
-                  <button disabled={enableButtons} type="button" className="btn btn-primary" onClick={handleFormResetDisable}>{lblBtnResetDisable}</button>
-                  <button disabled={enableButtons} type="button" className="btn btn-primary" onClick={handleFormResetEnable}>{lblBtnResetEnable}</button>
-                </div>
-              </>
-            }
-
           </div>
         </div>
       </div>
@@ -577,7 +550,10 @@ export default function PageAdminUsers() {
                           <div className="dropdown-menu" data-popper-placement="top-start" style={{position: "absolute", inset: "auto auto 0px 0px", margin: "0px", transform: "translate3d(0px, -28.8px, 0px)"}}>
                             <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "View", ); }}>View</a>
                             <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "Edit", ); }}>Edit</a>
-                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "Reset", ); }}>Reset</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormResetPassword(e, index); }}>Reset Password</a>
+                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormResetDisable(e, index); }}>Disable</a>
+                            <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormResetEnable(e, index); }}>Enable</a>
                             <div className="dropdown-divider"></div>
                             <a className="font-size-12 dropdown-item" type="button" onClick={(e) => { e.preventDefault(); handleFormOpen(index, "Authorize"); }}>Authorize</a>
                           </div>

@@ -8,6 +8,7 @@
     <title>Panelio — Admin Console</title>
 
     <link href="/assets/images/favicon.ico" rel="shortcut icon"/>
+    <link href="/assets/libs/toastr/build/toastr.min.css" rel="stylesheet" type="text/css"/>
     <link href="/assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css">
     <link href="/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css"/>
     <link href="/assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css"/>
@@ -38,10 +39,32 @@
     <script src="/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
     <script src="/assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
     <script src="/assets/libs/@chenfengyuan/datepicker/datepicker.min.js"></script>
+    <!-- toastr plugin -->
+    <script src="/assets/libs/toastr/build/toastr.min.js"></script>
 
     <script src="/assets/js/app.js"></script>
 
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": true,
+        "positionClass": "toast-bottom-right",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": 300,
+        "hideDuration": 1000,
+        "timeOut": 5000,
+        "extendedTimeOut": 1000,
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+      }
+    </script>
 
   </body>
 

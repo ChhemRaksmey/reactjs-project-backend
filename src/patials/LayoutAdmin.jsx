@@ -239,7 +239,7 @@ export function LayoutAdminSidebar () {
                                 <span key="t-dashboards">Dashboard</span>
                             </a>
                             <ul aria-expanded="false" className="sub-menu" >
-                                <li><NavLink className="ps-5" to="/">System Administrator</NavLink></li>
+                                <li><NavLink className="ps-5" to="/dashboard">System Administrator</NavLink></li>
                             </ul>
                         </li>
 
@@ -248,10 +248,10 @@ export function LayoutAdminSidebar () {
                                 <span key="t-dashboards">System Administrator</span>
                             </a>
                             <ul aria-expanded="false" className="sub-menu">
-                                <li><NavLink className="ps-5" key="t-admin-modules" to="/admin/modules">System Modules</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-modules"      to="/admin/modules">System Modules</NavLink></li>
                                 <li><NavLink className="ps-5" key="t-admin-applications" to="/admin/applications">Applications</NavLink></li>
-                                <li><NavLink className="ps-5" key="t-admin-privileges" to="/admin/privileges">Privileges</NavLink></li>
-                                <li><NavLink className="ps-5" key="t-admin-users" to="/admin/users">User Setup</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-privileges"   to="/admin/privileges">Privileges</NavLink></li>
+                                <li><NavLink className="ps-5" key="t-admin-users"        to="/admin/users">User Setup</NavLink></li>
                             </ul>
                         </li>
 
