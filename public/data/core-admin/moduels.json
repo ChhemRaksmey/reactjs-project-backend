@@ -1,0 +1,66 @@
+{
+    "header": {
+        "requestid": "",
+        "datetime_request": "",
+        "datetime_response": "",
+        "status": "",
+        "recordid": "",
+        "branchid": "",
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 10,
+            "totalItems": 4,
+            "totalPages": 1
+        }
+    },
+    "overrides": {
+        "NONE.WORKING.DAY": "today is none working day",
+        "SAME.INPUTER.AUTHORISER": "inputter and authoriser can not be same",
+        "TRANSACTION.BALANCE.LESS": "customer balance is less then transaction amount",
+        "CURRENCY.NOT.SAME.DEBIT.CREDIT": "Currency is not same to credit currency"
+    },
+    "errors": [
+        {
+            "field_name_1": "field name 1 is require",
+            "field_name_2": "field name 2 is require",
+            "field_name_3": "field name 3 is require",
+            "field_name_4": "field name 4 is require",
+            "field_name_5": "field name 5 is require",
+            "field_name_6": "field name 6 is require"
+        }
+    ],
+    "body": [
+        {
+            "id_module": "MDU-206250-0001",
+            "full_name": "System Application Modules",
+            "narrative": "",
+            "status": 1,
+            "audit_no": null,
+            "audit_status": ""
+        },
+        {
+            "id_module": "MDU-206250-0002",
+            "full_name": "System Applications of Module",
+            "narrative": "",
+            "status": 1,
+            "audit_no": null,
+            "audit_status": ""
+        },
+        {
+            "id_module": "MDU-206250-0003",
+            "full_name": "System Privileges",
+            "narrative": "",
+            "status": 1,
+            "audit_no": null,
+            "audit_status": ""
+        },
+        {
+            "id_module": "MDU-206250-0004",
+            "full_name": "System User",
+            "narrative": "",
+            "status": 1,
+            "audit_no": null,
+            "audit_status": ""
+        }
+    ]
+}
